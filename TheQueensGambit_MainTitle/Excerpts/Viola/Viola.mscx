@@ -171,7 +171,7 @@
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>8</indexDiff>
+              <indexDiff>7</indexDiff>
               </linked>
             <text><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 128</text>
             </Tempo>
@@ -200,7 +200,7 @@
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>8</indexDiff>
+              <indexDiff>7</indexDiff>
               </linked>
             <text><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 128</text>
             </Tempo>
@@ -1527,6 +1527,11 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -1575,6 +1580,11 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -1623,6 +1633,11 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -1678,6 +1693,11 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -1831,6 +1851,11 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -1879,6 +1904,11 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -1927,6 +1957,11 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -1982,6 +2017,11 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -3175,6 +3215,12 @@
             <linked>
               </linked>
             </Dynamic>
+          <PlayTechAnnotation>
+            <playTechType>legato</playTechType>
+            <linked>
+              </linked>
+            <text>legato</text>
+            </PlayTechAnnotation>
           <Chord>
             <linked>
               </linked>
@@ -4512,6 +4558,11 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>

@@ -29,7 +29,6 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <open>1</open>
     <metaTag name="partName">Timpani</metaTag>
     <Part id="16">
       <Staff id="1">
@@ -156,7 +155,7 @@
               <location>
                 <staves>-23</staves>
                 </location>
-              <indexDiff>8</indexDiff>
+              <indexDiff>7</indexDiff>
               </linked>
             <text><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 128</text>
             </Tempo>
@@ -185,7 +184,7 @@
               <location>
                 <staves>-23</staves>
                 </location>
-              <indexDiff>8</indexDiff>
+              <indexDiff>7</indexDiff>
               </linked>
             <text><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 128</text>
             </Tempo>
