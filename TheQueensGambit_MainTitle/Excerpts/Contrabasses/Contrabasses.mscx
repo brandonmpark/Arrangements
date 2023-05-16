@@ -1887,10 +1887,11 @@
               <linked>
                 </linked>
               <Accidental>
-                <subtype>accidentalSharp</subtype>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -1910,8 +1911,8 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -2899,6 +2900,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linked>

@@ -29,6 +29,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="partName">English Horn</metaTag>
     <Part id="26">
       <Staff id="1">

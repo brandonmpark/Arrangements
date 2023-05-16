@@ -29,6 +29,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="partName">French Horn</metaTag>
     <Part id="28">
       <Staff id="1">
@@ -3003,6 +3004,9 @@
         </Measure>
       <Measure len="24/8">
         <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -3011,6 +3015,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linked>

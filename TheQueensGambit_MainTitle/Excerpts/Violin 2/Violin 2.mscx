@@ -4377,6 +4377,9 @@
         </Measure>
       <Measure len="27/8">
         <multiMeasureRest>3</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4395,6 +4398,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linked>
@@ -8493,10 +8499,10 @@
               <linked>
                 </linked>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>87</pitch>
-              <tpc>11</tpc>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -8511,6 +8517,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>86</pitch>
               <tpc>16</tpc>
               </Note>
@@ -8522,6 +8531,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
@@ -8535,7 +8547,7 @@
                   </next>
                 </Spanner>
               <pitch>87</pitch>
-              <tpc>11</tpc>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           </voice>
@@ -8577,7 +8589,7 @@
                   </prev>
                 </Spanner>
               <pitch>87</pitch>
-              <tpc>11</tpc>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -8613,7 +8625,7 @@
                   </prev>
                 </Spanner>
               <pitch>87</pitch>
-              <tpc>11</tpc>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           </voice>
@@ -8643,7 +8655,7 @@
                   </prev>
                 </Spanner>
               <pitch>87</pitch>
-              <tpc>11</tpc>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <Tuplet>

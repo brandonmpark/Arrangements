@@ -29,6 +29,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="partName">Glockenspiel</metaTag>
     <Part id="35">
       <Staff id="1">

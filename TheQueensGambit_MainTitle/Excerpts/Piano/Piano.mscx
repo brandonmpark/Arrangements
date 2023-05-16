@@ -29,6 +29,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="partName">Piano</metaTag>
     <Part id="39">
       <Staff id="1">
@@ -138,6 +139,7 @@
         </Measure>
       <Measure len="36/8">
         <multiMeasureRest>3</multiMeasureRest>
+        <stretch>0.5</stretch>
         <voice>
           <TimeSig>
             <linked>
@@ -183,6 +185,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.5</stretch>
         <voice>
           <TimeSig>
             <linked>
@@ -199,6 +202,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.5</stretch>
         <voice>
           <TimeSig>
             <linked>
@@ -235,6 +239,7 @@
         </Measure>
       <Measure len="36/8">
         <multiMeasureRest>3</multiMeasureRest>
+        <stretch>0.5</stretch>
         <voice>
           <RehearsalMark>
             <linked>
@@ -272,6 +277,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -660,6 +666,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -791,6 +798,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -922,6 +930,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -1098,6 +1107,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -1252,6 +1262,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <TimeSig>
             <linked>
@@ -1333,6 +1344,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <KeySig>
             <linked>
@@ -1514,6 +1526,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -1670,6 +1683,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -1821,6 +1835,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -1998,6 +2013,7 @@
         </Measure>
       <Measure len="36/8">
         <multiMeasureRest>3</multiMeasureRest>
+        <stretch>0.9</stretch>
         <voice>
           <RehearsalMark>
             <linked>
@@ -2035,6 +2051,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.3</stretch>
         <voice>
           <TimeSig>
             <linked>
@@ -2051,6 +2068,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.1</stretch>
         <voice>
           <TimeSig>
             <linked>
@@ -2190,6 +2208,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.1</stretch>
         <voice>
           <Chord>
             <linked>
@@ -2317,6 +2336,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.1</stretch>
         <voice>
           <Chord>
             <linked>
@@ -2460,6 +2480,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <RehearsalMark>
             <linked>
@@ -2585,6 +2606,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -2696,6 +2718,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -2807,6 +2830,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -2921,6 +2945,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -3032,6 +3057,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -3160,6 +3186,7 @@
         </Measure>
       <Measure len="60/8">
         <multiMeasureRest>5</multiMeasureRest>
+        <stretch>0.9</stretch>
         <voice>
           <TimeSig>
             <linked>
@@ -3225,6 +3252,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <KeySig>
             <linked>
@@ -3260,6 +3288,7 @@
         </Measure>
       <Measure len="36/8">
         <multiMeasureRest>3</multiMeasureRest>
+        <stretch>0.9</stretch>
         <voice>
           <RehearsalMark>
             <linked>
@@ -3297,6 +3326,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>2.77556e-17</stretch>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -3685,6 +3715,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>2.77556e-17</stretch>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -3822,6 +3853,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>2.77556e-17</stretch>
         <voice>
           <Chord>
             <linked>
@@ -3953,6 +3985,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.6</stretch>
         <voice>
           <Chord>
             <linked>
@@ -4129,6 +4162,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <linked>
@@ -4283,6 +4317,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <linked>
@@ -4550,6 +4585,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <RehearsalMark>
             <linked>
@@ -4666,6 +4702,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <linked>
@@ -5584,6 +5621,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.7</stretch>
         <voice>
           <Chord>
             <linked>
@@ -5750,6 +5788,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.7</stretch>
         <voice>
           <TimeSig>
             <linked>
@@ -5814,6 +5853,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.7</stretch>
         <voice>
           <Chord>
             <linked>

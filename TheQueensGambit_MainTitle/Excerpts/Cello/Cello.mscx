@@ -3534,10 +3534,11 @@
               <linked>
                 </linked>
               <Accidental>
-                <subtype>accidentalSharp</subtype>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
                 </Accidental>
               <pitch>41</pitch>
-              <tpc>25</tpc>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -3559,7 +3560,7 @@
               <linked>
                 </linked>
               <pitch>41</pitch>
-              <tpc>25</tpc>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -4479,6 +4480,9 @@
         </Measure>
       <Measure len="24/8">
         <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4487,6 +4491,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linked>
