@@ -20,50 +20,6 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "hand-clap",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "8"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "triangle",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "8"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
             "instrumentId": "tambourine",
             "out": {
                 "balance": 0,
@@ -71,7 +27,33 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "8"
+            "partId": "15"
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "hand-clap",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "7",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
@@ -95,83 +77,13 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 7.300000190734863
             },
-            "partId": "13"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Keys",
-                        "museName": "Grand Piano",
-                        "museUID": "167",
-                        "playbackSetupData": "keyboards.piano"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Keys\\Grand Piano\\167",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Keys"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "piano",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "10"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Strings",
-                        "museName": "Violin 2 (Solo)",
-                        "museUID": "104",
-                        "playbackSetupData": "strings.violin.orchestral:secondary"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violin 2 (Solo)\\104",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Strings"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "violin",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "12"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "maracas",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "8"
+            "partId": "13",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
@@ -195,9 +107,13 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 6
             },
-            "partId": "6"
+            "partId": "6",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
@@ -219,7 +135,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "8"
+            "partId": "15"
         },
         {
             "in": {
@@ -245,7 +161,11 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "9"
+            "partId": "9",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
@@ -260,40 +180,14 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "electric-bass",
+            "instrumentId": "triangle",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "5"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Woodwinds",
-                        "museName": "Clarinet in Bb",
-                        "museUID": "127",
-                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Woodwinds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "bb-clarinet",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "2"
+            "partId": "15"
         },
         {
             "in": {
@@ -308,132 +202,18 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "drumset",
+            "instrumentId": "tambourine",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "7"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "metronome",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "999"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "vibraslap",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "8"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Woodwinds",
-                        "museName": "Tenor Sax",
-                        "museUID": "131",
-                        "playbackSetupData": "winds.saxophone.tenor"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Tenor Sax\\131",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Woodwinds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "tenor-saxophone",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "3"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "electric-guitar-tablature",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "4"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Strings",
-                        "museName": "Violoncello (Solo)",
-                        "museUID": "106",
-                        "playbackSetupData": "strings.violoncello.orchestral"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violoncello (Solo)\\106",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Strings"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "violoncello",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "14"
+            "partId": "8",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
@@ -459,7 +239,197 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "11"
+            "partId": "12",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "maracas",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "8",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "shaker",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "8",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "hand-clap",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "8",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Keys",
+                        "museName": "Grand Piano",
+                        "museUID": "167",
+                        "playbackSetupData": "keyboards.piano"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Keys\\Grand Piano\\167",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Keys"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "piano",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "10",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "triangle",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "8",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "electric-bass",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "5",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "metronome",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "999",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
@@ -483,9 +453,251 @@
                 "balance": 0,
                 "fxChain": {
                 },
+                "volumeDb": 6
+            },
+            "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "drumset",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
                 "volumeDb": 0
             },
-            "partId": "1"
+            "partId": "7",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Tenor Sax",
+                        "museUID": "131",
+                        "playbackSetupData": "winds.saxophone.tenor"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Tenor Sax\\131",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "tenor-saxophone",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 6
+            },
+            "partId": "3",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "vibraslap",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "15"
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "electric-guitar-tablature",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 1.2999999523162842
+            },
+            "partId": "4",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "maracas",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "15"
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "hand-clap",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "15"
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Violoncello (Solo)",
+                        "museUID": "106",
+                        "playbackSetupData": "strings.violoncello.orchestral"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Strings\\Violoncello (Solo)\\106",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Strings"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "violoncello",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 9.300000190734863
+            },
+            "partId": "14",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Violin 1 (Solo)",
+                        "museUID": "103",
+                        "playbackSetupData": "strings.violin.orchestral:primary"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Strings\\Violin 1 (Solo)\\103",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Strings"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "violin",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "11",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Clarinet in Bb",
+                        "museUID": "127",
+                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "bb-clarinet",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 6
+            },
+            "partId": "1",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         }
     ]
 }

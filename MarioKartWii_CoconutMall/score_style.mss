@@ -354,7 +354,7 @@
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
@@ -801,7 +801,7 @@
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
     <measureNumberOffset x="0" y="-2"/>
-    <measureNumberPosBelow x="0" y="2"/>
+    <measureNumberPosBelow x="0" y="1"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
     <measureNumberHPlacement>0</measureNumberHPlacement>
