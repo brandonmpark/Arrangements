@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.1</programVersion>
-  <programRevision>9b70a8c</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.0</programVersion>
+  <programRevision>2e3a93a</programRevision>
   <Score>
     <initialPartId>6</initialPartId>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
       <pageWidth>8.5</pageWidth>
@@ -17,8 +15,13 @@
       <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+      <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
       <createMultiMeasureRests>1</createMultiMeasureRests>
+      <minMMRestWidth>4</minMMRestWidth>
       <measureNumberPosBelow x="0" y="1"/>
+      <palmMutePosAbove x="0" y="-4"/>
+      <palmMutePosBelow x="0" y="4"/>
+      <defaultsVersion>400</defaultsVersion>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -98,7 +101,8 @@
       <Measure len="1/4">
         <voice>
           <KeySig>
-            <accidental>2</accidental>
+            <concertKey>0</concertKey>
+            <actualKey>2</actualKey>
             </KeySig>
           <TimeSig>
             <sigN>6</sigN>
@@ -365,7 +369,8 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>1</accidental>
+            <concertKey>-1</concertKey>
+            <actualKey>1</actualKey>
             </KeySig>
           <TimeSig>
             <subtype>2</subtype>
@@ -1328,7 +1333,8 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-4</accidental>
+            <concertKey>-6</concertKey>
+            <actualKey>-4</actualKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -2034,7 +2040,8 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>6</accidental>
+            <concertKey>4</concertKey>
+            <actualKey>6</actualKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -2141,7 +2148,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2158,7 +2170,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2221,7 +2238,8 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>1</accidental>
+            <concertKey>-1</concertKey>
+            <actualKey>1</actualKey>
             </KeySig>
           <Rest>
             <linked>
@@ -2244,7 +2262,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2281,7 +2304,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2347,7 +2375,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2369,7 +2402,8 @@
       <Measure>
         <voice>
           <KeySig>
-            <accidental>2</accidental>
+            <concertKey>0</concertKey>
+            <actualKey>2</actualKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -2386,7 +2420,13 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 <indexDiff>1</indexDiff>
                 </linked>
@@ -2592,7 +2632,13 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 <indexDiff>1</indexDiff>
                 </linked>
@@ -2616,7 +2662,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2638,7 +2689,12 @@
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2668,7 +2724,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2698,7 +2759,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2723,7 +2789,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2745,7 +2816,12 @@
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2775,7 +2851,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -2862,7 +2943,8 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>1</accidental>
+            <concertKey>-1</concertKey>
+            <actualKey>1</actualKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -3624,7 +3706,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -3646,7 +3733,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -3670,7 +3762,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -3916,7 +4013,8 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-4</accidental>
+            <concertKey>-6</concertKey>
+            <actualKey>-4</actualKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -4246,7 +4344,8 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>6</accidental>
+            <concertKey>4</concertKey>
+            <actualKey>6</actualKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -4342,7 +4441,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -4359,7 +4463,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -4422,7 +4531,8 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>1</accidental>
+            <concertKey>-1</concertKey>
+            <actualKey>1</actualKey>
             </KeySig>
           <Rest>
             <linked>
@@ -4445,7 +4555,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -4482,7 +4597,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -5074,26 +5194,19 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>1</accidental>
+            <concertKey>-1</concertKey>
+            <actualKey>1</actualKey>
             </KeySig>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>whole</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -5105,11 +5218,6 @@
       <Measure>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Rest>
             <linked>
@@ -5251,8 +5359,8 @@
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
-            <accidental>1</accidental>
+            <concertKey>-1</concertKey>
+            <actualKey>1</actualKey>
             </KeySig>
           <SystemText>
             <swing unit="" ratio="60"/>
@@ -5279,7 +5387,6 @@
               <location>
                 <staves>-5</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <style>tempo</style>
             <text>Straight</text>
@@ -6569,7 +6676,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -6591,7 +6703,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -6611,6 +6728,5 @@
           </voice>
         </Measure>
       </Staff>
-    <name>Trumpet</name>
     </Score>
   </museScore>

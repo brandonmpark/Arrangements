@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.1</programVersion>
-  <programRevision>9b70a8c</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.0</programVersion>
+  <programRevision>2e3a93a</programRevision>
   <Score>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
       <pageWidth>8.5</pageWidth>
       <pageHeight>11</pageHeight>
       <pagePrintableWidth>7.3189</pagePrintableWidth>
+      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+      <pageEvenTopMargin>0.590551</pageEvenTopMargin>
+      <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
+      <pageOddTopMargin>0.590551</pageOddTopMargin>
+      <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+      <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
       <createMultiMeasureRests>1</createMultiMeasureRests>
+      <minMMRestWidth>4</minMMRestWidth>
       <measureNumberPosBelow x="0" y="1"/>
+      <palmMutePosAbove x="0" y="-4"/>
+      <palmMutePosBelow x="0" y="4"/>
+      <defaultsVersion>400</defaultsVersion>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -117,10 +126,6 @@
           <style>instrument_excerpt</style>
           <text>Percussion</text>
           </Text>
-        <Text>
-          <style>poet</style>
-          <text/>
-          </Text>
         </VBox>
       <Measure len="1/4">
         <irregular>1</irregular>
@@ -159,7 +164,7 @@
                 <staves>-7</staves>
                 </location>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 132</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 132</text>
             </Tempo>
           <Rest>
             <linked>
@@ -181,7 +186,7 @@
                 <staves>-7</staves>
                 </location>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 132</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 132</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -303,7 +308,7 @@
                 </location>
               <indexDiff>2</indexDiff>
               </linked>
-            <text><sym>metNoteHalfUp</sym><font face="Edwin"/> = 132</text>
+            <text><sym>metNoteHalfUp</sym><font face="Edwin"></font> = 132</text>
             </Tempo>
           <RehearsalMark>
             <linked>
@@ -589,7 +594,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.183644"/>
             <durationType>quarter</durationType>
             </Rest>
           <Dynamic>
@@ -2020,6 +2024,8 @@
         <stretch>0.8</stretch>
         <voice>
           <Rest>
+            <linked>
+              </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -2563,7 +2569,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>2</subtype>
-              <endText></endText>
               <linked>
                 </linked>
               </HairPin>
@@ -4579,6 +4584,7 @@
               <longName>Shaker</longName>
               <shortName>Sh.</shortName>
               <trackName>Shaker</trackName>
+              <instrumentId>metal.brake-drums</instrumentId>
               <useDrumset>1</useDrumset>
               <Drum pitch="82">
                 <head>normal</head>
@@ -5482,6 +5488,7 @@
               <longName>Shaker</longName>
               <shortName>Sh.</shortName>
               <trackName>Shaker</trackName>
+              <instrumentId>metal.brake-drums</instrumentId>
               <useDrumset>1</useDrumset>
               <Drum pitch="82">
                 <head>normal</head>
@@ -6950,6 +6957,5 @@
           </voice>
         </Measure>
       </Staff>
-    <name>Percussion</name>
     </Score>
   </museScore>

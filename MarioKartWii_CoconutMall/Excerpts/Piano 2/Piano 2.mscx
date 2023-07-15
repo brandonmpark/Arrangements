@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.1</programVersion>
-  <programRevision>9b70a8c</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.0</programVersion>
+  <programRevision>2e3a93a</programRevision>
   <Score>
     <initialPartId>10</initialPartId>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
       <pageWidth>8.5</pageWidth>
@@ -17,8 +15,13 @@
       <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+      <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
       <createMultiMeasureRests>1</createMultiMeasureRests>
+      <minMMRestWidth>4</minMMRestWidth>
       <measureNumberPosBelow x="0" y="1"/>
+      <palmMutePosAbove x="0" y="-4"/>
+      <palmMutePosBelow x="0" y="4"/>
+      <defaultsVersion>400</defaultsVersion>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -32,7 +35,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
-        <bracket type="1" span="2" col="0"/>
+        <bracket type="1" span="2" col="0" visible="1"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <Staff id="2">
@@ -181,7 +184,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -208,7 +216,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -238,7 +251,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -498,7 +516,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <TimeSig>
             <subtype>2</subtype>
@@ -574,7 +592,7 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="-0.161235" y="-0.0895482"/>
+            <offset x="-0.161235" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -608,7 +626,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -647,7 +664,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -664,7 +680,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -698,7 +713,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -787,7 +801,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -821,7 +834,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -863,7 +875,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -883,7 +894,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -917,7 +927,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -1006,7 +1015,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -1040,7 +1048,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -1079,7 +1086,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -1096,7 +1102,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -1130,7 +1135,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -1219,7 +1223,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -2924,7 +2927,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="0.277122"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -3438,7 +3440,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-6</accidental>
+            <concertKey>-6</concertKey>
             </KeySig>
           <RehearsalMark>
             <text>A1</text>
@@ -4514,7 +4516,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>4</accidental>
+            <concertKey>4</concertKey>
             </KeySig>
           <RehearsalMark>
             <text>B</text>
@@ -4526,41 +4528,35 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>16</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -5470,7 +5466,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <Dynamic>
             <subtype>mf</subtype>
@@ -6319,7 +6315,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.228887"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -6425,7 +6420,7 @@
         <stretch>0.9</stretch>
         <voice>
           <KeySig>
-            <accidental>0</accidental>
+            <concertKey>0</concertKey>
             </KeySig>
           <RehearsalMark>
             <text>C</text>
@@ -6437,11 +6432,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-16</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -8536,7 +8526,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <RehearsalMark>
             <text>D</text>
@@ -10080,7 +10070,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-6</accidental>
+            <concertKey>-6</concertKey>
             </KeySig>
           <RehearsalMark>
             <text>D1</text>
@@ -10796,7 +10786,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>4</accidental>
+            <concertKey>4</concertKey>
             </KeySig>
           <RehearsalMark>
             <linkedMain/>
@@ -10984,7 +10974,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
             <linked>
@@ -11014,7 +11004,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -11058,7 +11053,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -11455,7 +11455,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.228887"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -11563,7 +11562,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>0</accidental>
+            <concertKey>0</concertKey>
             </KeySig>
           <Dynamic>
             <subtype>mf</subtype>
@@ -12387,7 +12386,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <SystemText>
             <swing unit="" ratio="60"/>
@@ -12453,7 +12452,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12487,7 +12485,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12526,7 +12523,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12543,7 +12539,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12577,7 +12572,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -12666,7 +12660,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12700,7 +12693,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12742,7 +12734,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12762,7 +12753,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12796,7 +12786,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -12885,7 +12874,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12919,7 +12907,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12958,7 +12945,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -12975,7 +12961,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13009,7 +12994,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -13098,7 +13082,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13132,7 +13115,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13174,7 +13156,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13194,7 +13175,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13228,7 +13208,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -13323,7 +13302,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13357,7 +13335,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13396,7 +13373,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13413,7 +13389,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13447,7 +13422,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -13536,7 +13510,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13570,7 +13543,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13612,7 +13584,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13632,7 +13603,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13666,7 +13636,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -13755,7 +13724,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13789,7 +13757,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13828,7 +13795,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13845,7 +13811,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -13879,7 +13844,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -13968,7 +13932,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14002,7 +13965,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14044,7 +14006,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14064,7 +14025,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14098,7 +14058,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -14187,7 +14146,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14221,7 +14179,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14260,7 +14217,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14277,7 +14233,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14311,7 +14266,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -14400,7 +14354,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14434,7 +14387,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14476,7 +14428,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14496,7 +14447,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14530,7 +14480,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -14619,7 +14568,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14653,7 +14601,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14692,7 +14639,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14709,7 +14655,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14743,7 +14688,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -14832,7 +14776,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14866,7 +14809,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14907,7 +14849,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14927,7 +14868,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -14961,7 +14901,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="-0.250783"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -16260,7 +16199,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -16313,7 +16257,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -16340,7 +16289,12 @@
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -16371,7 +16325,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -16404,7 +16363,12 @@
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -16435,7 +16399,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -16462,7 +16431,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -16489,7 +16463,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoBelow</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -16685,7 +16664,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <TimeSig>
             <subtype>2</subtype>
@@ -16948,7 +16927,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-6</accidental>
+            <concertKey>-6</concertKey>
             </KeySig>
           <Chord>
             <linked>
@@ -17430,7 +17409,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>4</accidental>
+            <concertKey>4</concertKey>
             </KeySig>
           <Rest>
             <linked>
@@ -17520,7 +17499,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <Chord>
             <linked>
@@ -18140,7 +18119,7 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="-0.0943742" y="0.11235"/>
+            <offset x="-0.0943742" y="0"/>
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
@@ -18153,7 +18132,7 @@
       <Measure>
         <voice>
           <KeySig>
-            <accidental>0</accidental>
+            <concertKey>0</concertKey>
             </KeySig>
           <Rest>
             <linked>
@@ -18412,12 +18391,11 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="0.186718"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -18602,7 +18580,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="0.186718"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -18719,7 +18696,6 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="0" y="0.186718"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -18882,7 +18858,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-6</accidental>
+            <concertKey>-6</concertKey>
             </KeySig>
           <Rest>
             <linked>
@@ -20624,7 +20600,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>4</accidental>
+            <concertKey>4</concertKey>
             </KeySig>
           <Rest>
             <linked>
@@ -20737,7 +20713,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
             <linked>
@@ -21096,7 +21072,7 @@
           <Rest>
             <linked>
               </linked>
-            <offset x="-0.0943742" y="0.11235"/>
+            <offset x="-0.0943742" y="0"/>
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
@@ -21111,7 +21087,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>0</accidental>
+            <concertKey>0</concertKey>
             </KeySig>
           <Rest>
             <linked>
@@ -21325,7 +21301,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
             <linked>
@@ -22919,6 +22895,5 @@
           </voice>
         </Measure>
       </Staff>
-    <name>Piano 2</name>
     </Score>
   </museScore>

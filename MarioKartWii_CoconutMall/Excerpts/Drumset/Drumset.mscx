@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.1</programVersion>
-  <programRevision>9b70a8c</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.0</programVersion>
+  <programRevision>2e3a93a</programRevision>
   <Score>
     <initialPartId>7</initialPartId>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
       <pageWidth>8.5</pageWidth>
@@ -17,8 +15,13 @@
       <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+      <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
       <createMultiMeasureRests>1</createMultiMeasureRests>
+      <minMMRestWidth>4</minMMRestWidth>
       <measureNumberPosBelow x="0" y="1"/>
+      <palmMutePosAbove x="0" y="-4"/>
+      <palmMutePosBelow x="0" y="4"/>
+      <defaultsVersion>400</defaultsVersion>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -34,7 +37,7 @@
           <keysig>0</keysig>
           </StaffType>
         <defaultClef>PERC</defaultClef>
-        <bracket type="0" span="2" col="0"/>
+        <bracket type="0" span="2" col="0" visible="1"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Drumset</trackName>
@@ -841,17 +844,19 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
               <head>cross</head>
               <dead>1</dead>
               </Note>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
-              <pitch>49</pitch>
-              <tpc>21</tpc>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
               <head>cross</head>
               <dead>1</dead>
               </Note>
@@ -1312,24 +1317,16 @@
             <text>To Drumset</text>
             </InstrumentChange>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -1477,11 +1474,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -6447,15 +6439,6 @@
       <Measure>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              </HairPin>
-            <next>
-              <location>
-                <measures>16</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
@@ -8321,11 +8304,6 @@
       <Measure>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-16</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -8339,20 +8317,10 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
             </Spanner>
           <Tuplet>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -8364,11 +8332,13 @@
             </Tuplet>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -8483,12 +8453,6 @@
             <text>D</text>
             </RehearsalMark>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <durationType>eighth</durationType>
@@ -9299,25 +9263,16 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>42</pitch>
               <tpc>20</tpc>
@@ -9396,12 +9351,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -9744,7 +9693,6 @@
               <pitch>42</pitch>
               <tpc>20</tpc>
               <head>cross</head>
-              <dead>1</dead>
               </Note>
             </Chord>
           <Chord>
@@ -9758,7 +9706,6 @@
               <pitch>42</pitch>
               <tpc>20</tpc>
               <head>cross</head>
-              <dead>1</dead>
               </Note>
             </Chord>
           <Chord>
@@ -9778,7 +9725,6 @@
               <pitch>46</pitch>
               <tpc>12</tpc>
               <head>cross</head>
-              <dead>1</dead>
               </Note>
             </Chord>
           <Chord>
@@ -9792,7 +9738,6 @@
               <pitch>42</pitch>
               <tpc>20</tpc>
               <head>cross</head>
-              <dead>1</dead>
               </Note>
             </Chord>
           <Tuplet>
@@ -9801,10 +9746,6 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <Number>
-              <style>tuplet</style>
-              <text>3</text>
-              </Number>
             </Tuplet>
           <Chord>
             <linked>
@@ -9823,7 +9764,6 @@
               <pitch>42</pitch>
               <tpc>20</tpc>
               <head>cross</head>
-              <dead>1</dead>
               </Note>
             </Chord>
           <Chord>
@@ -9855,7 +9795,6 @@
               <pitch>42</pitch>
               <tpc>20</tpc>
               <head>cross</head>
-              <dead>1</dead>
               </Note>
             </Chord>
           <endTuplet/>
@@ -9865,10 +9804,6 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <Number>
-              <style>tuplet</style>
-              <text>3</text>
-              </Number>
             </Tuplet>
           <Chord>
             <linked>
@@ -9887,7 +9822,6 @@
               <pitch>46</pitch>
               <tpc>12</tpc>
               <head>cross</head>
-              <dead>1</dead>
               </Note>
             </Chord>
           <Chord>
@@ -9919,7 +9853,6 @@
               <pitch>42</pitch>
               <tpc>20</tpc>
               <head>cross</head>
-              <dead>1</dead>
               </Note>
             </Chord>
           <endTuplet/>
@@ -11213,25 +11146,16 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>8</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>35</pitch>
               <tpc>19</tpc>
@@ -11958,11 +11882,6 @@
             <text>Improvise!</text>
             </StaffText>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-8</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <durationType>whole</durationType>
@@ -12896,24 +12815,16 @@
             <text>Swing</text>
             </SystemText>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -13047,11 +12958,6 @@
       <Measure>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -13553,6 +13459,5 @@
           </voice>
         </Measure>
       </Staff>
-    <name>Drumset</name>
     </Score>
   </museScore>

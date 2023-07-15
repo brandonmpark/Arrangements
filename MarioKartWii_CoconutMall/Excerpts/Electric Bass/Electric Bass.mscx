@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.1</programVersion>
-  <programRevision>9b70a8c</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.0</programVersion>
+  <programRevision>2e3a93a</programRevision>
   <Score>
     <initialPartId>5</initialPartId>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
       <pageWidth>8.5</pageWidth>
@@ -17,8 +15,13 @@
       <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+      <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
       <createMultiMeasureRests>1</createMultiMeasureRests>
+      <minMMRestWidth>4</minMMRestWidth>
       <measureNumberPosBelow x="0" y="1"/>
+      <palmMutePosAbove x="0" y="-4"/>
+      <palmMutePosBelow x="0" y="4"/>
+      <defaultsVersion>400</defaultsVersion>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -552,7 +555,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <TimeSig>
             <subtype>2</subtype>
@@ -1197,7 +1200,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-6</accidental>
+            <concertKey>-6</concertKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -1424,7 +1427,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>4</accidental>
+            <concertKey>4</concertKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -1551,7 +1554,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
             <linked>
@@ -1658,7 +1661,7 @@
         <stretch>1.3</stretch>
         <voice>
           <KeySig>
-            <accidental>0</accidental>
+            <concertKey>0</concertKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -2586,7 +2589,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -3001,7 +3004,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-6</accidental>
+            <concertKey>-6</concertKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -3409,7 +3412,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>4</accidental>
+            <concertKey>4</concertKey>
             </KeySig>
           <RehearsalMark>
             <linked>
@@ -3535,7 +3538,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <Dynamic>
             <subtype>mf</subtype>
@@ -4251,7 +4254,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>0</accidental>
+            <concertKey>0</concertKey>
             </KeySig>
           <Rest>
             <linked>
@@ -4416,7 +4419,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-1</accidental>
+            <concertKey>-1</concertKey>
             </KeySig>
           <SystemText>
             <swing unit="" ratio="60"/>
@@ -5690,7 +5693,12 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentStaccatoAbove</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -5710,6 +5718,5 @@
           </voice>
         </Measure>
       </Staff>
-    <name>Electric Bass</name>
     </Score>
   </museScore>
