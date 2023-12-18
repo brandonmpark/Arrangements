@@ -10347,6 +10347,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <linkedMain/>
+            </Fermata>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
