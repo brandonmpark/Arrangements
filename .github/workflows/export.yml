@@ -1,0 +1,64 @@
+name: MuseScore Export
+on:
+  push:
+    paths:
+      - '**/*.mscx'
+      - '!WIP/**'
+jobs:
+  export-scores:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+    - name: Get changed files
+      id: getfile
+      run: |
+        echo "::set-output name=mscxfiles::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.mscx$')"
+    - name: Install yq
+      run: |
+        sudo add-apt-repository ppa:rmescandon/yq
+        sudo apt update
+        sudo apt install yq -y
+    - name: Install MuseScore
+      run: |
+        wget -q https://ftp.osuosl.org/pub/musescore/releases/MuseScore-3.6.2/MuseScore-3.6.2-x86_64.AppImage
+        chmod +x MuseScore-3.6.2-x86_64.AppImage
+        sudo mv MuseScore-3.6.2-x86_64.AppImage /usr/local/bin/mscore
+    - name: Export Scores
+      run: |
+        for file in ${{ steps.getfile.outputs.mscxfiles }}
+        do
+          # Extract project name and directory
+          project_dir=$(dirname "$file")
+          project_name=$(basename "$project_dir")
+
+          # Remove old build files in the directory
+          rm -rf "$project_dir/build"
+
+          # Skip if parts.yaml doesn't exist in the directory
+          if [ ! -f "$project_dir/parts.yaml" ]; then
+            continue
+          fi
+
+          # Create directories and export PDFs for each part
+          for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
+            mkdir -p "$project_dir/build/$category"
+            for part in $(yq e '.["'$category'"][]' "$project_dir/parts.yaml"); do
+              mscore "$file" -o "$project_dir/build/$category/${part}.pdf" -P "$part"
+            done
+          done
+
+          # Export MP3
+          mscore "$file" -o "$project_dir/build/${project_name}.mp3"
+        done
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        if git diff --quiet --cached; then
+          echo "No changes to commit"
+        else
+          git commit -m "Updated scores for: ${{ steps.getfile.outputs.mscxfiles }}"
+          git push
+        fi

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <rootfiles>
+    <rootfile full-path="score_style.mss"/>
+    <rootfile full-path="Pixar_Medley.mscx"/>
+    <rootfile full-path="Excerpts/Violoncello/Violoncello.mss"/>
+    <rootfile full-path="Excerpts/Violoncello/Violoncello.mscx"/>
+    <rootfile full-path="Excerpts/Violin 1/Violin 1.mss"/>
+    <rootfile full-path="Excerpts/Violin 1/Violin 1.mscx"/>
+    <rootfile full-path="Excerpts/Viola/Viola.mss"/>
+    <rootfile full-path="Excerpts/Viola/Viola.mscx"/>
+    <rootfile full-path="Excerpts/Violin 2/Violin 2.mss"/>
+    <rootfile full-path="Excerpts/Violin 2/Violin 2.mscx"/>
+    <rootfile full-path="Thumbnails/thumbnail.png"/>
+    <rootfile full-path="audiosettings.json"/>
+    <rootfile full-path="viewsettings.json"/>
+    <rootfile full-path="Excerpts/Violoncello/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Violin 1/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Viola/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Violin 2/viewsettings.json"/>
+    </rootfiles>
+  </container>
