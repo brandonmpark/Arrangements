@@ -17,8 +17,6 @@ jobs:
         git fetch origin ${{ github.event.before }}:${{ github.event.before }}
         mscxfiles=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.mscx$' | grep -v '/Excerpts/' | tr '\n' ' ')
         printf 'MSCXFILES=%s\n' "$mscxfiles" >> $GITHUB_ENV
-    - name: Debug output
-      run: "echo 'Changed files: ${{ env.MSCXFILES }}'"
     - name: Install yq
       run: |
         sudo add-apt-repository ppa:rmescandon/yq
@@ -57,3 +55,14 @@ jobs:
             done
           done
         done
+    - name: Commit and push
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Add exported files"
+          git push
+        fi
