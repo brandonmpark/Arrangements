@@ -35,7 +35,7 @@ jobs:
         do
           # Extract project name and directory
           project_dir=$(dirname "$file")
-          project_name=$(basename "$file")
+          project_name=$(basename "$file" .mscx)
 
           # Remove old build files in the directory
           rm -rf "$project_dir/build"
