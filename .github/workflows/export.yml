@@ -29,7 +29,7 @@ jobs:
         wget -q https://github.com/musescore/MuseScore/releases/download/v4.1.1/MuseScore-4.1.1.232071203-x86_64.AppImage
         chmod +x MuseScore-4.1.1.232071203-x86_64.AppImage
         ./MuseScore-4.1.1.232071203-x86_64.AppImage --appimage-extract
-        sudo mv squashfs-root/AppRun /usr/local/bin/mscore
+
     - name: Export Scores
       run: |
         for file in ${{ env.MSCXFILES }}
@@ -50,10 +50,10 @@ jobs:
           for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
             mkdir -p "$project_dir/build/$category"
             for part in $(yq e '.["'$category'"][]' "$project_dir/parts.yaml"); do
-              mscore "$file" -o "$project_dir/build/$category/${part}.pdf" -P "$part"
+              ./squashfs-root/AppRun "$file" -o "$project_dir/build/$category/${part}.pdf" -P "$part"
             done
           done
 
           # Export MP3
-          mscore "$file" -o "$project_dir/build/${project_name}.mp3"
+          ./squashfs-root/AppRun "$file" -o "$project_dir/build/${project_name}.mp3"
         done
