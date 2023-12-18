@@ -29,7 +29,10 @@ jobs:
         ./MuseScore-4.1.1.232071203-x86_64.AppImage --appimage-extract
 
     - name: Install dependencies
-      run: sudo apt-get update && sudo apt-get install -y libjack-jackd2-0
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libjack-jackd2-0
+        sudo apt-get install -y libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xinput0 libxcb-xfixes0
 
     - name: Export Scores
       run: |
