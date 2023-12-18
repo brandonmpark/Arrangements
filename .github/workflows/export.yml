@@ -13,7 +13,8 @@ jobs:
     - name: Get changed files
       id: getfile
       run: |
-        echo "::set-output name=mscxfiles::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.mscx$')"
+        git fetch origin ${{ github.event.before }}:${{ github.event.before }}
+        echo "mscxfiles=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.mscx$')" >> $GITHUB_ENV
     - name: Install yq
       run: |
         sudo add-apt-repository ppa:rmescandon/yq
@@ -26,7 +27,7 @@ jobs:
         sudo mv MuseScore-4.1.1.232071203-x86_64.AppImage /usr/local/bin/mscore
     - name: Export Scores
       run: |
-        for file in ${{ steps.getfile.outputs.mscxfiles }}
+        for file in ${{ env.mscxfiles }}
         do
           # Extract project name and directory
           project_dir=$(dirname "$file")
@@ -59,6 +60,6 @@ jobs:
         if git diff --quiet --cached; then
           echo "No changes to commit"
         else
-          git commit -m "Updated scores for: ${{ steps.getfile.outputs.mscxfiles }}"
+          git commit -m "Updated scores for: ${{ env.mscxfiles }}"
           git push
         fi

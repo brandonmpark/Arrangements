@@ -4659,6 +4659,10 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <linkedMain/>
+            </Fermata>
           <Spanner type="Pedal">
             <prev>
               <location>
