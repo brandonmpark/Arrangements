@@ -28,6 +28,9 @@ jobs:
         chmod +x MuseScore-4.1.1.232071203-x86_64.AppImage
         ./MuseScore-4.1.1.232071203-x86_64.AppImage --appimage-extract
 
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -y libjack-jackd2-0
+
     - name: Export Scores
       run: |
         sudo apt-get install -y xvfb zip
