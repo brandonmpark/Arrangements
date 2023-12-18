@@ -12257,11 +12257,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            <linked>
-              </linked>
-            </Fermata>
           <Rest>
             <linked>
               </linked>
