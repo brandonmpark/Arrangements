@@ -30,7 +30,7 @@ jobs:
 
     - name: Export Scores
       run: |
-        sudo apt-get install -y xvfb
+        sudo apt-get install -y xvfb zip
         for file in ${{ env.MSCXFILES }}
         do
           # Extract project name and directory
@@ -55,19 +55,13 @@ jobs:
               fi
             done
           done
+
+          # Create a zip file for the project
+          zip -r "$project_name.zip" "$project_dir/build"
         done
-    - name: Checkout
-      uses: actions/checkout@v2
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v2
       with:
-        persist-credentials: false
-    - name: Commit and push
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add **/build/**/*.pdf
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Add exported files"
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master
-        fi
+        name: exported-pdfs
+        path: '*.zip'
