@@ -55,23 +55,18 @@ jobs:
           # Run the batch job to create all parts
           xvfb-run -a ./squashfs-root/AppRun -j job.json
 
-          # Skip if parts.yaml doesn't exist in the directory
-          if [ ! -f "$project_dir/parts.yaml" ]; then
-            continue
+          # Sort the parts into directories based on parts.yaml if it exists
+          if [ -f "$project_dir/parts.yaml" ]; then
+            for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
+              mkdir -p "$project_dir/build/$category"
+              for part in $(yq e '.["'$category'"][]' "$project_dir/parts.yaml"); do
+                mv "$project_dir/build/${project_name} (part for ${part}).pdf" "$project_dir/build/$category/${project_name}-${part}.pdf"
+              done
+            done
           fi
 
-          ls -la "$project_dir/build"
-
-          # Sort the parts into directories based on parts.yaml
-          for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
-            mkdir -p "$project_dir/build/$category"
-            for part in $(yq e '.["'$category'"][]' "$project_dir/parts.yaml"); do
-              mv "$project_dir/build/${project_name} (part for ${part}).pdf" "$project_dir/build/$category/${project_name}-${part}.pdf"
-            done
-          done
-
           # Create a zip file for the project
-          zip -r "$project_name.zip" "$project_dir/build"
+          zip -r "$project_dir/$project_name.zip" "$project_dir/build"
         done
 
     - name: Upload Artifacts
