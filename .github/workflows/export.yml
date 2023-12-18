@@ -32,13 +32,14 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y libjack-jackd2-0
-        sudo apt-get install -y libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xinput0 libxcb-xfixes0
 
     - name: Export Scores
       run: |
         sudo apt-get install -y xvfb zip
         for file in ${{ env.MSCXFILES }}
         do
+          file = $(realpath "$file")
+          
           # Extract project name and directory
           project_dir=$(dirname "$file")
           project_name=$(basename "$file" .mscx)
@@ -61,8 +62,7 @@ jobs:
          cat job.json
 
           # Run the batch job to create all parts
-        #   xvfb-run -a ./squashfs-root/AppRun -j job.json > "$project_dir/musescore.log" 2>&1
-          ./squashfs-root/AppRun -j job.json
+           xvfb-run -a ./squashfs-root/AppRun -j job.json > "$project_dir/musescore.log" 2>&1
 
           sync
 
