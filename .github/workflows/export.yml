@@ -56,6 +56,8 @@ jobs:
           xvfb-run -a ./squashfs-root/AppRun -j job.json
 
           # Print contents of build directory for debugging˝
+          echo "Debug: "
+          cat "$project_dir/musescore.log"
           ls -l "$project_dir/build"
 
           # Sort the parts into directories based on parts.yaml if it exists

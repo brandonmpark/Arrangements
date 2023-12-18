@@ -10370,6 +10370,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <linkedMain/>
+            </Fermata>
           <Rest>
             <linkedMain/>
             <durationType>eighth</durationType>
