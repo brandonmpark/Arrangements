@@ -59,10 +59,11 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add -A
+        git add **/build/**/*.pdf
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
           git commit -m "Add exported files"
+          git remote set-url origin https://${{ secrets.PAT }}@github.com/${{ github.repository }}.git
           git push
         fi
