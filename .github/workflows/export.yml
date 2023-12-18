@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - '**/*.mscx'
-      - '!**/excerpts/**'
+      - '!**/Excerpts/**'
       - '!WIP/**'
 jobs:
   export-scores:
@@ -15,7 +15,7 @@ jobs:
       id: getfile
       run: |
         git fetch origin ${{ github.event.before }}:${{ github.event.before }}
-        mscxfiles=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.mscx$' | grep -v '/excerpts/' | tr '\n' ' ')
+        mscxfiles=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.mscx$' | grep -v '/Excerpts/' | tr '\n' ' ')
         printf 'MSCXFILES=%s\n' "$mscxfiles" >> $GITHUB_ENV
     - name: Debug output
       run: "echo 'Changed files: ${{ env.MSCXFILES }}'"
@@ -29,7 +29,7 @@ jobs:
         wget -q https://github.com/musescore/MuseScore/releases/download/v4.1.1/MuseScore-4.1.1.232071203-x86_64.AppImage
         chmod +x MuseScore-4.1.1.232071203-x86_64.AppImage
         ./MuseScore-4.1.1.232071203-x86_64.AppImage --appimage-extract
-        sudo mv squashfs-root/AppRun /usr/local/bin/mscore
+        sudo mv squashfs-root/usr/bin/mscore /usr/local/bin/mscore
     - name: Export Scores
       run: |
         for file in ${{ env.MSCXFILES }}
