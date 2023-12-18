@@ -14,7 +14,8 @@ jobs:
       id: getfile
       run: |
         git fetch origin ${{ github.event.before }}:${{ github.event.before }}
-        echo "mscxfiles=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.mscx$')" >> $GITHUB_ENV
+        mscxfiles=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.mscx$' | tr '\n' ' ')
+        printf 'MSCXFILES=%s\n' "$mscxfiles" >> $GITHUB_ENV
     - name: Install yq
       run: |
         sudo add-apt-repository ppa:rmescandon/yq
