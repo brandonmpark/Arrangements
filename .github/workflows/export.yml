@@ -30,6 +30,7 @@ jobs:
 
     - name: Export Scores
       run: |
+        sudo apt-get install -y xvfb
         for file in ${{ env.MSCXFILES }}
         do
           # Extract project name and directory
@@ -50,7 +51,7 @@ jobs:
             for part in $(yq e '.["'$category'"][]' "$project_dir/parts.yaml"); do
               excerpt_file="$project_dir/Excerpts/${part}/${part}.mscx"
               if [ -f "$excerpt_file" ]; then
-                ./squashfs-root/AppRun -j "$excerpt_file" -o "$project_dir/build/$category/${part}.pdf"
+                xvfb-run -a ./squashfs-root/AppRun -j "$excerpt_file" -o "$project_dir/build/$category/${part}.pdf"
               fi
             done
           done
