@@ -52,6 +52,8 @@ jobs:
             }
          ]' > job.json
 
+         cat job.json
+
           # Run the batch job to create all parts
           xvfb-run -a ./squashfs-root/AppRun -j job.json > "$project_dir/musescore.log" 2>&1
 
