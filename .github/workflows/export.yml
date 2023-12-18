@@ -42,15 +42,15 @@ jobs:
           mkdir -p "$project_dir/build"
 
           # Create a JSON file for the batch job
-          echo '[
+         echo '[
             {
-              "in": "'"$file"'",
-              "out": [
-                "'"$project_dir/build/${project_name}.pdf"'",
-                [ "'"$project_dir/build/${project_name} (part for ", ").pdf" ]
-              ]
+                "in": "'"$file"'",
+                "out": [
+                    "'"$project_dir/build/${project_name}.pdf"'",
+                    "'"$project_dir/build/${project_name} (part for ", ").pdf"'
+                ]
             }
-          ]' > job.json
+         ]' > job.json
 
           # Run the batch job to create all parts
           xvfb-run -a ./squashfs-root/AppRun -j job.json
