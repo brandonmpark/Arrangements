@@ -60,6 +60,8 @@ jobs:
             continue
           fi
 
+          ls -la "$project_dir/build"
+
           # Sort the parts into directories based on parts.yaml
           for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
             mkdir -p "$project_dir/build/$category"
