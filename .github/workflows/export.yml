@@ -60,13 +60,9 @@ jobs:
          cat job.json
 
           # Run the batch job to create all parts
-           xvfb-run -a ./squashfs-root/AppRun -j job.json > "$project_dir/musescore.log" 2>&1
+           xvfb-run -a ./squashfs-root/AppRun -j job.json
 
           sync
-
-          # Print the content of the log file
-          echo "MuseScore log:"
-          cat "$project_dir/musescore.log"
 
           # Print contents of build directory for debugging˝
           echo "Build directory: "
