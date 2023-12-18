@@ -10409,10 +10409,6 @@
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>stringsDownBow</subtype>
-              <linkedMain/>
-              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>69</pitch>

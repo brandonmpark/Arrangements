@@ -51,37 +51,23 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Strings",
-                        "museName": "Violin 1 (Solo)",
-                        "museUID": "103",
-                        "playbackSetupData": "strings.violin.orchestral:primary"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violin 1 (Solo)\\103",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Strings"
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "violin",
+            "instrumentId": "metronome",
             "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.4000000059604645
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": -1.2999999523162842
+                "volumeDb": 0
             },
-            "partId": "1",
+            "partId": "999",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -92,19 +78,19 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Strings",
-                        "museName": "Violin 1 (Solo)",
-                        "museUID": "103",
-                        "playbackSetupData": "strings.violin.orchestral:primary"
+                        "museName": "Violoncello (Solo)",
+                        "museUID": "106",
+                        "playbackSetupData": "strings.violoncello.orchestral"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violin 1 (Solo)\\103",
+                    "id": "Muse Strings\\Violoncello (Solo)\\106",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Strings"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "violin",
+            "instrumentId": "violoncello",
             "out": {
                 "auxSends": [
                     {
@@ -119,9 +105,9 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": -1.2999999523162842
+                "volumeDb": 6.699999809265137
             },
-            "partId": "2",
+            "partId": "4",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -172,19 +158,19 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Strings",
-                        "museName": "Violoncello (Solo)",
-                        "museUID": "106",
-                        "playbackSetupData": "strings.violoncello.orchestral"
+                        "museName": "Violin 1 (Solo)",
+                        "museUID": "103",
+                        "playbackSetupData": "strings.violin.orchestral:primary"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violoncello (Solo)\\106",
+                    "id": "Muse Strings\\Violin 1 (Solo)\\103",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Strings"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "violoncello",
+            "instrumentId": "violin",
             "out": {
                 "auxSends": [
                     {
@@ -199,9 +185,9 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 6.699999809265137
+                "volumeDb": -1.2999999523162842
             },
-            "partId": "4",
+            "partId": "2",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -211,23 +197,37 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Violin 1 (Solo)",
+                        "museUID": "103",
+                        "playbackSetupData": "strings.violin.orchestral:primary"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
+                    "id": "Muse Strings\\Violin 1 (Solo)\\103",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Strings"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "metronome",
+            "instrumentId": "violin",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": -1.2999999523162842
             },
-            "partId": "999",
+            "partId": "1",
             "soloMuteState": {
                 "mute": false,
                 "solo": false

@@ -62,8 +62,6 @@ jobs:
           # Run the batch job to create all parts
            xvfb-run -a ./squashfs-root/AppRun -f -j job.json
 
-          sync
-
           # Print contents of build directory for debugging˝
           echo "Build directory: "
           ls -l "$project_dir/build"
