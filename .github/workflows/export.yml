@@ -35,21 +35,36 @@ jobs:
         do
           # Extract project name and directory
           project_dir=$(dirname "$file")
-          project_name=$(basename "$project_dir")
+          project_name=$(basename "$file" .mscz)
 
           # Remove old build files in the directory
           rm -rf "$project_dir/build"
+          mkdir -p "$project_dir/build"
+
+          # Create a JSON file for the batch job
+          echo '[
+            {
+              "in": "'"$file"'",
+              "out": [
+                "'"$project_dir/build/${project_name}.pdf"'",
+                [ "'"$project_dir/build/${project_name} (part for ", ").pdf" ]
+              ]
+            }
+          ]' > job.json
+
+          # Run the batch job to create all parts
+          xvfb-run -a ./squashfs-root/AppRun -j job.json
 
           # Skip if parts.yaml doesn't exist in the directory
           if [ ! -f "$project_dir/parts.yaml" ]; then
             continue
           fi
 
-          # Create directories and export PDFs for each part
+          # Sort the parts into directories based on parts.yaml
           for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
             mkdir -p "$project_dir/build/$category"
             for part in $(yq e '.["'$category'"][]' "$project_dir/parts.yaml"); do
-              xvfb-run -a ./squashfs-root/AppRun -o "$project_dir/build/$category/${part}.pdf" -P "$part" "$file"
+              mv "$project_dir/build/${project_name} (part for ${part}).pdf" "$project_dir/build/$category/${project_name}-${part}.pdf"
             done
           done
 
