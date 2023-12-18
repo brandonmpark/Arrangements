@@ -5540,11 +5540,6 @@
               </linked>
             <durationType>eighth</durationType>
             </Rest>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            <linked>
-              </linked>
-            </Fermata>
           <Spanner type="Pedal">
             <prev>
               <location>
