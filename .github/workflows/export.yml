@@ -55,11 +55,15 @@ jobs:
          cat job.json
 
           # Run the batch job to create all parts
-          xvfb-run -a ./squashfs-root/AppRun -j job.json > "$project_dir/musescore.log" 2>&1
+          xvfb-run -a ./squashfs-root/AppRun -j job.json
+
+          sync
+
+          echo "Build directory permissions:"
+          ls -ld "$project_dir/build"
 
           # Print contents of build directory for debugging˝
-          echo "Debug: "
-          cat "$project_dir/musescore.log"
+          echo "Build directory: "
           ls -l "$project_dir/build"
 
           # Sort the parts into directories based on parts.yaml if it exists
@@ -71,8 +75,6 @@ jobs:
               done
             done
           fi
-
-          sync
 
           # Create a zip file for the project
           zip -r "$project_name.zip" "$project_dir/build"
