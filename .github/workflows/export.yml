@@ -27,8 +27,8 @@ jobs:
     - name: Install MuseScore
       run: |
         wget -q https://github.com/musescore/MuseScore/releases/download/v4.1.1/MuseScore-4.1.1.232071203-x86_64.AppImage
-        chmod +x https://github.com/musescore/MuseScore/releases/download/v4.1.1/MuseScore-4.1.1.232071203-x86_64.AppImage
-        ./https://github.com/musescore/MuseScore/releases/download/v4.1.1/MuseScore-4.1.1.232071203-x86_64.AppImage --appimage-extract
+        chmod +x MuseScore-4.1.1.232071203-x86_64.AppImage
+        ./MuseScore-4.1.1.232071203-x86_64.AppImage --appimage-extract
         sudo mv squashfs-root/AppRun /usr/local/bin/mscore
     - name: Export Scores
       run: |
