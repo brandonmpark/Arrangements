@@ -50,10 +50,10 @@ jobs:
           for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
             mkdir -p "$project_dir/build/$category"
             for part in $(yq e '.["'$category'"][]' "$project_dir/parts.yaml"); do
-              ./squashfs-root/AppRun "$file" -o "$project_dir/build/$category/${part}.pdf" -P "$part"
+              excerpt_file="$project_dir/Excerpts/${part}.mscx"
+              if [ -f "$excerpt_file" ]; then
+                ./squashfs-root/AppRun -j "$excerpt_file" -o "$project_dir/build/$category/${part}.pdf"
+              fi
             done
           done
-
-          # Export MP3
-          ./squashfs-root/AppRun "$file" -o "$project_dir/build/${project_name}.mp3"
         done
