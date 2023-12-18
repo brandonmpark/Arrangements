@@ -49,10 +49,7 @@ jobs:
           for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
             mkdir -p "$project_dir/build/$category"
             for part in $(yq e '.["'$category'"][]' "$project_dir/parts.yaml"); do
-              excerpt_file="$project_dir/Excerpts/${part}/${part}.mscx"
-              if [ -f "$excerpt_file" ]; then
-                xvfb-run -a ./squashfs-root/AppRun -o "$project_dir/build/$category/${part}.pdf" "$excerpt_file"
-              fi
+              xvfb-run -a ./squashfs-root/AppRun -o "$project_dir/build/$category/${part}.pdf" -P "$part" "$file"
             done
           done
 
