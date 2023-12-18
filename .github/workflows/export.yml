@@ -56,6 +56,10 @@ jobs:
             done
           done
         done
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
     - name: Commit and push
       run: |
         git config --local user.email "action@github.com"
@@ -65,6 +69,5 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Add exported files"
-          git remote set-url origin https://${{ secrets.PAT }}@github.com/${{ github.repository }}.git
-          git push
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master
         fi
