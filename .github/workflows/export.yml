@@ -66,7 +66,7 @@ jobs:
           fi
 
           # Create a zip file for the project
-          zip -r "$project_dir/$project_name.zip" "$project_dir/build"
+          zip -r "$project_name.zip" "$project_dir/build"
         done
 
     - name: Upload Artifacts
