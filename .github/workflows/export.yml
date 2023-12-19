@@ -96,12 +96,15 @@ jobs:
         do
           project_dir=$(dirname "$file")
           project_name=$(basename "$file" .mscx)
-          if [ -f "$project_dir/parts.yaml" ]; then
-            for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
+          abbreviated_title=$(yq e '.abbreviated_title' "$project_dir/config.yaml")
+          abbreviated_title=${abbreviated_title:-$project_name} # use project_name if abbreviated_title is not set
+
+          if [ -f "parts.yaml" ]; then
+            for category in $(yq e 'keys | .[]' "parts.yaml"); do
               mkdir -p "$project_dir/build/$category"
-              yq e '.["'$category'"][]' "$project_dir/parts.yaml" | while read -r part; do
+              yq e '.["'$category'"][]' "parts.yaml" | while read -r part; do
                 part=$(echo "$part" | tr -d '"' | sed 's/ /_/g') # remove quotes and replace whitespace with underscores
-                mv "$project_dir/build/${project_name}_${part}.pdf" "$project_dir/build/$category/${project_name}_${part}.pdf"
+                mv "$project_dir/build/${abbreviated_title}_${part}.pdf" "$project_dir/build/$category/${abbreviated_title}_${part}.pdf" 2>/dev/null || true
               done
             done
           fi
@@ -114,3 +117,24 @@ jobs:
       with:
         name: exported-pdfs
         path: '*.zip'
+
+    - name: Upload to Google Drive
+      run: |
+        for file in ${{ env.MSCXFILES }}
+        do
+          project_dir=$(dirname "$file")
+          project_name=$(basename "$file" .mscx)
+          gdrive_link=$(yq e '.google_drive_link' "$project_dir/config.yaml")
+          if [ -n "$gdrive_link" ]; then
+            folder_id=$(echo "$gdrive_link" | grep -oP 'folders/\K[^/]+')
+            echo "FOLDER_ID=$folder_id" >> $GITHUB_ENV
+            echo "PROJECT_NAME=$project_name" >> $GITHUB_ENV
+
+            # Upload to Google Drive
+            uses: gdrive-org/drive-upload-action@v1
+            with:
+              serviceAccount: ${{ secrets.GDRIVE_SA_FILE }}
+              folderId: ${{ env.FOLDER_ID }}
+              uploadPath: "$project_dir/build"
+          fi
+        done
