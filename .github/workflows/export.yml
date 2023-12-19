@@ -99,8 +99,8 @@ jobs:
           if [ -f "$project_dir/parts.yaml" ]; then
             for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
               mkdir -p "$project_dir/build/$category"
-              for part in $(yq e -r '.["'$category'"][]' "$project_dir/parts.yaml"); do
-                part=$(echo "$part" | sed 's/ /_/g') # replace whitespace with underscores
+              yq e '.["'$category'"][]' "$project_dir/parts.yaml" | while read -r part; do
+                part=$(echo "$part" | tr -d '"' | sed 's/ /_/g') # remove quotes and replace whitespace with underscores
                 mv "$project_dir/build/${project_name}_${part}.pdf" "$project_dir/build/$category/${project_name}_${part}.pdf"
               done
             done
