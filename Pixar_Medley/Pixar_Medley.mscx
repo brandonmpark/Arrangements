@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>15516</LastEID>
+  <LastEID>15518</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -12093,11 +12093,6 @@
             <eid>7224134991987</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>stringsDownBow</subtype>
-              <eid>66645007532063</eid>
-              <linkedMain/>
-              </Articulation>
             <Note>
               <eid>7228429959188</eid>
               <linkedMain/>

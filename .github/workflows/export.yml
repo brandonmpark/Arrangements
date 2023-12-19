@@ -82,6 +82,23 @@ jobs:
           done
           pdfunite "${files_to_unite[@]}" "$project_dir/build/${project_name}_${part_name}.pdf"
           rm -rf "$project_dir/build/parts"
+        done    - name: Sort parts
+      run: |
+        for file in ${{ env.MSCXFILES }}
+        do
+          project_dir=$(dirname "$file")
+          project_name=$(basename "$file" .mscx)
+          if [ -f "$project_dir/parts.yaml" ]; then
+            for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
+              mkdir -p "$project_dir/build/$category"
+              for part in $(yq e -r '.["'$category'"][]' "$project_dir/parts.yaml"); do
+                part=$(echo "$part" | sed 's/ /_/g') # replace whitespace with underscores
+                mv "$project_dir/build/${project_name}_${part}.pdf" "$project_dir/build/$category/${project_name}_${part}.pdf"
+              done
+            done
+          fi
+
+          zip -r "$project_name.zip" "$project_dir/build"
         done
 
     - name: Install yq
@@ -99,7 +116,7 @@ jobs:
           if [ -f "$project_dir/parts.yaml" ]; then
             for category in $(yq e 'keys | .[]' "$project_dir/parts.yaml"); do
               mkdir -p "$project_dir/build/$category"
-              for part in $(yq e '.["'$category'"][]' "$project_dir/parts.yaml"); do
+              for part in $(yq e -r '.["'$category'"][]' "$project_dir/parts.yaml"); do
                 part=$(echo "$part" | sed 's/ /_/g') # replace whitespace with underscores
                 mv "$project_dir/build/${project_name}_${part}.pdf" "$project_dir/build/$category/${project_name}_${part}.pdf"
               done
