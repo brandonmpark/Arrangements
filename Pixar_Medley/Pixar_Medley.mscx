@@ -12093,6 +12093,11 @@
             <eid>7224134991987</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>66653597466655</eid>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <eid>7228429959188</eid>
               <linkedMain/>
