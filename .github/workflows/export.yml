@@ -65,14 +65,22 @@ jobs:
             if pdftotext "$project_dir/build/parts/${project_name}_${page}.pdf" - | grep -q 'arr. Brandon Park'; then
               if [ $page -ne $start_page ]; then
                 part_name=$(pdftotext "$project_dir/build/parts/${project_name}_${start_page}.pdf" - | head -n 1 | sed 's/ /_/g')
-                pdfunite "$project_dir/build/parts/${project_name}"_{${start_page}..$((page-1))}.pdf "$project_dir/build/${project_name}_${part_name}.pdf"
+                files_to_unite=()
+                for ((i=start_page; i<page; i++)); do
+                  files_to_unite+=("$project_dir/build/parts/${project_name}_${i}.pdf")
+                done
+                pdfunite "${files_to_unite[@]}" "$project_dir/build/${project_name}_${part_name}.pdf"
                 ((part_number++))
               fi
               start_page=$page
             fi
           done
           part_name=$(pdftotext "$project_dir/build/parts/${project_name}_${start_page}.pdf" - | head -n 1 | sed 's/ /_/g')
-          pdfunite "$project_dir/build/parts/${project_name}"_{${start_page}..$total_pages}.pdf "$project_dir/build/${project_name}_${part_name}.pdf"
+          files_to_unite=()
+          for ((i=start_page; i<=total_pages; i++)); do
+            files_to_unite+=("$project_dir/build/parts/${project_name}_${i}.pdf")
+          done
+          pdfunite "${files_to_unite[@]}" "$project_dir/build/${project_name}_${part_name}.pdf"
           rm -rf "$project_dir/build/parts"
         done
 
