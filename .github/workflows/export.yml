@@ -59,7 +59,7 @@ jobs:
             abbreviated_title=$(yq e '.abbreviated_title' "$project_dir/config.yaml" || echo "$project_name")
           fi
           mkdir -p "$project_dir/build/parts"
-          mv "$project_dir/build/${project_name}.pdf" "$project_dir/build/parts/${abbreviated_title}.pdf"
+          mv "$project_dir/build/${project_name}.pdf" "$project_dir/build/${abbreviated_title}.pdf"
           pdfseparate "$project_dir/build/${abbreviated_title}.pdf" "$project_dir/build/parts/${abbreviated_title}_%d.pdf"
           start_page=1
           part_number=1
