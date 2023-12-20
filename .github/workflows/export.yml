@@ -88,6 +88,13 @@ jobs:
             files_to_unite+=("$project_dir/build/parts/${abbreviated_title}_${i}.pdf")
           done
           pdfunite "${files_to_unite[@]}" "$project_dir/build/${abbreviated_title}_${part_name}.pdf"
+          rm -rf "$project_dir/build/parts"
+
+          # Delete the original generated score with all parts
+          rm "$project_dir/build/${abbreviated_title}.pdf"
+
+          # Rename the full score part to remove the extra underscore
+          mv "$project_dir/build/${abbreviated_title}_.pdf" "$project_dir/build/${abbreviated_title}.pdf" 
         done
 
     - name: Install yq
@@ -110,9 +117,9 @@ jobs:
             for category in $(yq e 'keys | .[]' "parts.yaml"); do
               yq e '.["'$category'"][]' "parts.yaml" | while read -r part; do
                 part=$(echo "$part" | tr -d '"' | sed 's/ /_/g') # remove quotes and replace whitespace with underscores
-                if [ -f "$project_dir/build/parts/${abbreviated_title}_${part}.pdf" ]; then
+                if [ -f "$project_dir/build/${abbreviated_title}_${part}.pdf" ]; then
                   mkdir -p "$project_dir/build/$category"
-                  mv "$project_dir/build/parts/${abbreviated_title}_${part}.pdf" "$project_dir/build/$category/${abbreviated_title}_${part}.pdf" 2>/dev/null || true
+                  mv "$project_dir/build/${abbreviated_title}_${part}.pdf" "$project_dir/build/$category/${abbreviated_title}_${part}.pdf" 2>/dev/null || true
                 fi
               done
             done
