@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>4</LastEID>
+  <LastEID>6</LastEID>
   <Score>
     <name>Trumpet in B♭</name>
     <initialPartId>13</initialPartId>
@@ -106,6 +106,7 @@
         <Text>
           <eid>243065084182534</eid>
           <style>instrument_excerpt</style>
+          <offset x="-0.199216" y="-0.597647"/>
           <text>Trumpet in B♭</text>
           </Text>
         </VBox>

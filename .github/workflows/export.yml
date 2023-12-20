@@ -145,6 +145,7 @@ jobs:
 
     - name: Upload to Google Drive
       run: |
+        wget -O gdrive "https://drive.google.com/uc?id=1v6GMaU2E4v4eCer9fQJf7EBCZy_AvPQ0" && chmod +x gdrive && sudo install gdrive /usr/local/bin/gdrive && gdrive version
         for file in ${{ env.MSCXFILES }}
         do
           project_dir=$(dirname "$file")
@@ -153,15 +154,10 @@ jobs:
             gdrive_link=$(yq e '.google_drive_link' "$project_dir/config.yaml")
             if [ -n "$gdrive_link" ]; then
               folder_id=$(echo "$gdrive_link" | grep -oP 'folders/\K[^/]+')
-              echo "FOLDER_ID=$folder_id" >> $GITHUB_ENV
-              echo "PROJECT_DIR=$project_dir" >> $GITHUB_ENV
-
-              # Upload to Google Drive
-              uses: gdrive-org/drive-upload-action@v1
-              with:
-                serviceAccount: ${{ secrets.GDRIVE_SA_FILE }}
-                folderId: ${{ env.FOLDER_ID }}
-                uploadPath: "${{ env.PROJECT_DIR }}/build"
+              upload_path="$project_dir/build/$project_name.zip"
+              echo "Uploading $upload_path to folder $folder_id"
+              echo ${{ secrets.GDRIVE_SA_FILE }} > sa.json
+              gdrive upload --service-account sa.json --parent $folder_id $upload_path
             fi
           fi
         done
