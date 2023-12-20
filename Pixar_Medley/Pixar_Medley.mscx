@@ -297,11 +297,6 @@
                   </location>
                 </next>
               </Spanner>
-            <Articulation>
-              <subtype>stringsDownBow</subtype>
-              <eid>66670777335839</eid>
-              <linkedMain/>
-              </Articulation>
             <Note>
               <eid>64424509460</eid>
               <linkedMain/>

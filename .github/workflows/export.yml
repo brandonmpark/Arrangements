@@ -68,7 +68,10 @@ jobs:
           do
             if pdftotext "$project_dir/build/parts/${abbreviated_title}_${page}.pdf" - | grep -q 'arr. Brandon Park'; then
               if [ $page -ne $start_page ]; then
-                part_name=$(pdftotext "$project_dir/build/parts/${abbreviated_title}_${start_page}.pdf" - | head -n 1 | sed 's/ /_/g')
+                part_name=""
+                if [ $part_number -ne 1 ]; then
+                  part_name=$(pdftotext "$project_dir/build/parts/${abbreviated_title}_${start_page}.pdf" - | head -n 1 | sed 's/ /_/g')
+                fi
                 files_to_unite=()
                 for ((i=start_page; i<page; i++)); do
                   files_to_unite+=("$project_dir/build/parts/${abbreviated_title}_${i}.pdf")
@@ -84,9 +87,6 @@ jobs:
           for ((i=start_page; i<=total_pages; i++)); do
             files_to_unite+=("$project_dir/build/parts/${abbreviated_title}_${i}.pdf")
           done
-          pdfunite "${files_to_unite[@]}" "$project_dir/build/${abbreviated_title}_${part_name}.pdf"
-          rm -rf "$project_dir/build/parts"
-        done
 
     - name: Install yq
       run: |
@@ -106,10 +106,12 @@ jobs:
           fi
           if [ -f "parts.yaml" ]; then
             for category in $(yq e 'keys | .[]' "parts.yaml"); do
-              mkdir -p "$project_dir/build/$category"
               yq e '.["'$category'"][]' "parts.yaml" | while read -r part; do
                 part=$(echo "$part" | tr -d '"' | sed 's/ /_/g') # remove quotes and replace whitespace with underscores
-                mv "$project_dir/build/${abbreviated_title}_${part}.pdf" "$project_dir/build/$category/${abbreviated_title}_${part}.pdf" 2>/dev/null || true
+                if [ -f "$project_dir/build/parts/${abbreviated_title}_${part}.pdf" ]; then
+                  mkdir -p "$project_dir/build/$category"
+                  mv "$project_dir/build/parts/${abbreviated_title}_${part}.pdf" "$project_dir/build/$category/${abbreviated_title}_${part}.pdf" 2>/dev/null || true
+                fi
               done
             done
           fi
