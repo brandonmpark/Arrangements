@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>15521</LastEID>
+  <LastEID>15522</LastEID>
   <Score>
     <name>Violin 1</name>
     <initialPartId>1</initialPartId>
@@ -175,12 +175,6 @@
                   </location>
                 </next>
               </Spanner>
-            <Articulation>
-              <subtype>stringsDownBow</subtype>
-              <eid>66666482368543</eid>
-              <linked>
-                </linked>
-              </Articulation>
             <Note>
               <eid>41790031790100</eid>
               <linked>

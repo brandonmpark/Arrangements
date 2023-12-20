@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>1</LastEID>
+  <LastEID>2</LastEID>
   <Score>
     <name>Viola</name>
     <initialPartId>21</initialPartId>
@@ -202,13 +202,6 @@
             <Articulation>
               <subtype>articAccentAbove</subtype>
               <eid>302258323456031</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              </Articulation>
-            <Articulation>
-              <subtype>stringsDownBow</subtype>
-              <eid>8589934623</eid>
               <linked>
                 <indexDiff>1</indexDiff>
                 </linked>

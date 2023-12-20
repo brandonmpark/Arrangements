@@ -60,7 +60,7 @@ jobs:
           fi
           mkdir -p "$project_dir/build/parts"
           mv "$project_dir/build/${project_name}.pdf" "$project_dir/build/parts/${abbreviated_title}.pdf"
-          pdfseparate "$project_dir/build/${project_name}.pdf" "$project_dir/build/parts/${abbreviated_title}_%d.pdf"
+          pdfseparate "$project_dir/build/${abbreviated_title}.pdf" "$project_dir/build/parts/${abbreviated_title}_%d.pdf"
           start_page=1
           part_number=1
           total_pages=$(pdfinfo "$project_dir/build/${abbreviated_title}.pdf" | awk '/Pages:/ {print $2}')
@@ -109,7 +109,7 @@ jobs:
               mkdir -p "$project_dir/build/$category"
               yq e '.["'$category'"][]' "parts.yaml" | while read -r part; do
                 part=$(echo "$part" | tr -d '"' | sed 's/ /_/g') # remove quotes and replace whitespace with underscores
-                mv "$project_dir/build/parts/${abbreviated_title}_${part}.pdf" "$project_dir/build/$category/${abbreviated_title}_${part}.pdf" 2>/dev/null || true
+                mv "$project_dir/build/${abbreviated_title}_${part}.pdf" "$project_dir/build/$category/${abbreviated_title}_${part}.pdf" 2>/dev/null || true
               done
             done
           fi
