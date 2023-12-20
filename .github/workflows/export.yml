@@ -87,6 +87,8 @@ jobs:
           for ((i=start_page; i<=total_pages; i++)); do
             files_to_unite+=("$project_dir/build/parts/${abbreviated_title}_${i}.pdf")
           done
+          pdfunite "${files_to_unite[@]}" "$project_dir/build/${abbreviated_title}_${part_name}.pdf"
+        done
 
     - name: Install yq
       run: |
@@ -140,17 +142,19 @@ jobs:
         do
           project_dir=$(dirname "$file")
           project_name=$(basename "$file" .mscx)
-          gdrive_link=$(yq e '.google_drive_link' "$project_dir/config.yaml")
-          if [ -n "$gdrive_link" ]; then
-            folder_id=$(echo "$gdrive_link" | grep -oP 'folders/\K[^/]+')
-            echo "FOLDER_ID=$folder_id" >> $GITHUB_ENV
-            echo "PROJECT_DIR=$project_dir" >> $GITHUB_ENV
+          if [ -f "$project_dir/config.yaml" ]; then
+            gdrive_link=$(yq e '.google_drive_link' "$project_dir/config.yaml")
+            if [ -n "$gdrive_link" ]; then
+              folder_id=$(echo "$gdrive_link" | grep -oP 'folders/\K[^/]+')
+              echo "FOLDER_ID=$folder_id" >> $GITHUB_ENV
+              echo "PROJECT_DIR=$project_dir" >> $GITHUB_ENV
 
-            # Upload to Google Drive
-            uses: gdrive-org/drive-upload-action@v1
-            with:
-              serviceAccount: ${{ secrets.GDRIVE_SA_FILE }}
-              folderId: ${{ env.FOLDER_ID }}
-              uploadPath: "${{ env.PROJECT_DIR }}/build"
+              # Upload to Google Drive
+              uses: gdrive-org/drive-upload-action@v1
+              with:
+                serviceAccount: ${{ secrets.GDRIVE_SA_FILE }}
+                folderId: ${{ env.FOLDER_ID }}
+                uploadPath: "${{ env.PROJECT_DIR }}/build"
+            fi
           fi
         done
