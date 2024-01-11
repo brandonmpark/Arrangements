@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <rootfiles>
+    <rootfile full-path="score_style.mss"/>
+    <rootfile full-path="UNDERTALE_Heartache.mscx"/>
+    <rootfile full-path="Excerpts/0_Piano/0_Piano.mss"/>
+    <rootfile full-path="Excerpts/0_Piano/0_Piano.mscx"/>
+    <rootfile full-path="Excerpts/1_Viola 2/1_Viola 2.mss"/>
+    <rootfile full-path="Excerpts/1_Viola 2/1_Viola 2.mscx"/>
+    <rootfile full-path="Excerpts/2_Violoncello/2_Violoncello.mss"/>
+    <rootfile full-path="Excerpts/2_Violoncello/2_Violoncello.mscx"/>
+    <rootfile full-path="Excerpts/3_Violin 1/3_Violin 1.mss"/>
+    <rootfile full-path="Excerpts/3_Violin 1/3_Violin 1.mscx"/>
+    <rootfile full-path="Excerpts/4_Viola 1/4_Viola 1.mss"/>
+    <rootfile full-path="Excerpts/4_Viola 1/4_Viola 1.mscx"/>
+    <rootfile full-path="Excerpts/5_Violin 3/5_Violin 3.mss"/>
+    <rootfile full-path="Excerpts/5_Violin 3/5_Violin 3.mscx"/>
+    <rootfile full-path="Excerpts/6_Violin 2/6_Violin 2.mss"/>
+    <rootfile full-path="Excerpts/6_Violin 2/6_Violin 2.mscx"/>
+    <rootfile full-path="Excerpts/7_Flute/7_Flute.mss"/>
+    <rootfile full-path="Excerpts/7_Flute/7_Flute.mscx"/>
+    <rootfile full-path="Thumbnails/thumbnail.png"/>
+    <rootfile full-path="audiosettings.json"/>
+    <rootfile full-path="viewsettings.json"/>
+    <rootfile full-path="Excerpts/0_Piano/viewsettings.json"/>
+    <rootfile full-path="Excerpts/1_Viola 2/viewsettings.json"/>
+    <rootfile full-path="Excerpts/2_Violoncello/viewsettings.json"/>
+    <rootfile full-path="Excerpts/3_Violin 1/viewsettings.json"/>
+    <rootfile full-path="Excerpts/4_Viola 1/viewsettings.json"/>
+    <rootfile full-path="Excerpts/5_Violin 3/viewsettings.json"/>
+    <rootfile full-path="Excerpts/6_Violin 2/viewsettings.json"/>
+    <rootfile full-path="Excerpts/7_Flute/viewsettings.json"/>
+    </rootfiles>
+  </container>

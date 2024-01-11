@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <rootfiles>
+    <rootfile full-path="score_style.mss"/>
+    <rootfile full-path="MarioKartWii_CoconutMall.mscx"/>
+    <rootfile full-path="Excerpts/0_Clarinet 2/0_Clarinet 2.mss"/>
+    <rootfile full-path="Excerpts/0_Clarinet 2/0_Clarinet 2.mscx"/>
+    <rootfile full-path="Excerpts/1_Cello/1_Cello.mss"/>
+    <rootfile full-path="Excerpts/1_Cello/1_Cello.mscx"/>
+    <rootfile full-path="Excerpts/2_Piano 2/2_Piano 2.mss"/>
+    <rootfile full-path="Excerpts/2_Piano 2/2_Piano 2.mscx"/>
+    <rootfile full-path="Excerpts/3_Tenor Saxophone/3_Tenor Saxophone.mss"/>
+    <rootfile full-path="Excerpts/3_Tenor Saxophone/3_Tenor Saxophone.mscx"/>
+    <rootfile full-path="Excerpts/4_Percussion 2/4_Percussion 2.mss"/>
+    <rootfile full-path="Excerpts/4_Percussion 2/4_Percussion 2.mscx"/>
+    <rootfile full-path="Excerpts/5_Violin 1/5_Violin 1.mss"/>
+    <rootfile full-path="Excerpts/5_Violin 1/5_Violin 1.mscx"/>
+    <rootfile full-path="Excerpts/6_Trumpet/6_Trumpet.mss"/>
+    <rootfile full-path="Excerpts/6_Trumpet/6_Trumpet.mscx"/>
+    <rootfile full-path="Excerpts/7_Percussion/7_Percussion.mss"/>
+    <rootfile full-path="Excerpts/7_Percussion/7_Percussion.mscx"/>
+    <rootfile full-path="Excerpts/8_Electric Bass/8_Electric Bass.mss"/>
+    <rootfile full-path="Excerpts/8_Electric Bass/8_Electric Bass.mscx"/>
+    <rootfile full-path="Excerpts/9_Clarinet 1/9_Clarinet 1.mss"/>
+    <rootfile full-path="Excerpts/9_Clarinet 1/9_Clarinet 1.mscx"/>
+    <rootfile full-path="Excerpts/10_Drumset/10_Drumset.mss"/>
+    <rootfile full-path="Excerpts/10_Drumset/10_Drumset.mscx"/>
+    <rootfile full-path="Excerpts/11_Piano 1/11_Piano 1.mss"/>
+    <rootfile full-path="Excerpts/11_Piano 1/11_Piano 1.mscx"/>
+    <rootfile full-path="Excerpts/12_Electric Guitar/12_Electric Guitar.mss"/>
+    <rootfile full-path="Excerpts/12_Electric Guitar/12_Electric Guitar.mscx"/>
+    <rootfile full-path="Excerpts/13_Percussion 1/13_Percussion 1.mss"/>
+    <rootfile full-path="Excerpts/13_Percussion 1/13_Percussion 1.mscx"/>
+    <rootfile full-path="Excerpts/14_Viola/14_Viola.mss"/>
+    <rootfile full-path="Excerpts/14_Viola/14_Viola.mscx"/>
+    <rootfile full-path="Excerpts/15_Violin 2/15_Violin 2.mss"/>
+    <rootfile full-path="Excerpts/15_Violin 2/15_Violin 2.mscx"/>
+    <rootfile full-path="Thumbnails/thumbnail.png"/>
+    <rootfile full-path="audiosettings.json"/>
+    <rootfile full-path="viewsettings.json"/>
+    <rootfile full-path="Excerpts/0_Clarinet 2/viewsettings.json"/>
+    <rootfile full-path="Excerpts/1_Cello/viewsettings.json"/>
+    <rootfile full-path="Excerpts/2_Piano 2/viewsettings.json"/>
+    <rootfile full-path="Excerpts/3_Tenor Saxophone/viewsettings.json"/>
+    <rootfile full-path="Excerpts/4_Percussion 2/viewsettings.json"/>
+    <rootfile full-path="Excerpts/5_Violin 1/viewsettings.json"/>
+    <rootfile full-path="Excerpts/6_Trumpet/viewsettings.json"/>
+    <rootfile full-path="Excerpts/7_Percussion/viewsettings.json"/>
+    <rootfile full-path="Excerpts/8_Electric Bass/viewsettings.json"/>
+    <rootfile full-path="Excerpts/9_Clarinet 1/viewsettings.json"/>
+    <rootfile full-path="Excerpts/10_Drumset/viewsettings.json"/>
+    <rootfile full-path="Excerpts/11_Piano 1/viewsettings.json"/>
+    <rootfile full-path="Excerpts/12_Electric Guitar/viewsettings.json"/>
+    <rootfile full-path="Excerpts/13_Percussion 1/viewsettings.json"/>
+    <rootfile full-path="Excerpts/14_Viola/viewsettings.json"/>
+    <rootfile full-path="Excerpts/15_Violin 2/viewsettings.json"/>
+    </rootfiles>
+  </container>
