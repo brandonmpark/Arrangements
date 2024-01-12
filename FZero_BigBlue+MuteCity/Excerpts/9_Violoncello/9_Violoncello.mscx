@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>31819</LastEID>
+  <LastEID>32478</LastEID>
   <Score>
     <name>Violoncello</name>
     <initialPartId>22</initialPartId>
@@ -15858,12 +15858,7 @@
             <eid>196009422487577</eid>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <eid>196013717454873</eid>
-            <linked>
-              </linked>
+            <dots>1</dots>
             <durationType>half</durationType>
             </Rest>
           </voice>
