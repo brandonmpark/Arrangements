@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>34086</LastEID>
+  <LastEID>34678</LastEID>
   <Score>
     <name>Bassoon</name>
     <initialPartId>8</initialPartId>
@@ -5301,7 +5301,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182742268510228</eid>
               <linked>
@@ -5321,7 +5320,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182755153412116</eid>
               <linked>
@@ -5341,7 +5339,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182768038314004</eid>
               <linked>
@@ -5368,7 +5365,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182785218183188</eid>
               <linked>
@@ -5399,7 +5395,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182802398052372</eid>
               <linked>
@@ -5413,7 +5408,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182810987986964</eid>
               <linked>
@@ -5427,7 +5421,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182819577921556</eid>
               <linked>
@@ -5441,7 +5434,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182828167856148</eid>
               <linked>
@@ -5465,7 +5457,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182841052758036</eid>
               <linked>
@@ -5485,7 +5476,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182853937659924</eid>
               <linked>
@@ -5505,7 +5495,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182866822561812</eid>
               <linked>
@@ -5532,7 +5521,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182884002430996</eid>
               <linked>
@@ -5563,7 +5551,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182901182300180</eid>
               <linked>
@@ -5577,7 +5564,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182909772234772</eid>
               <linked>
@@ -5661,7 +5647,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182961311842324</eid>
               <linked>
@@ -5685,7 +5670,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182978491711508</eid>
               <linked>
@@ -5705,7 +5689,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>182991376613396</eid>
               <linked>
@@ -5732,7 +5715,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183008556482580</eid>
               <linked>
@@ -5763,7 +5745,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183025736351764</eid>
               <linked>
@@ -5794,7 +5775,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183047211188244</eid>
               <linked>
@@ -5808,7 +5788,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183055801122836</eid>
               <linked>
@@ -5822,7 +5801,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183064391057428</eid>
               <linked>
@@ -5846,7 +5824,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183077275959316</eid>
               <linked>
@@ -5866,7 +5843,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183090160861204</eid>
               <linked>
@@ -5880,7 +5856,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183098750795796</eid>
               <linked>
@@ -5907,7 +5882,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183115930664980</eid>
               <linked>
@@ -6009,7 +5983,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183180355174420</eid>
               <linked>
@@ -6033,7 +6006,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183193240076308</eid>
               <linked>
@@ -6053,7 +6025,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183206124978196</eid>
               <linked>
@@ -6073,7 +6044,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183219009880084</eid>
               <linked>
@@ -6100,7 +6070,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183236189749268</eid>
               <linked>
@@ -6131,7 +6100,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183253369618452</eid>
               <linked>
@@ -6145,7 +6113,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183261959553044</eid>
               <linked>
@@ -6159,7 +6126,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183270549487636</eid>
               <linked>
@@ -6173,7 +6139,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183279139422228</eid>
               <linked>
@@ -6197,7 +6162,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183292024324116</eid>
               <linked>
@@ -6217,7 +6181,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183304909226004</eid>
               <linked>
@@ -6237,7 +6200,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183317794127892</eid>
               <linked>
@@ -6264,7 +6226,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183334973997076</eid>
               <linked>
@@ -6295,7 +6256,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183352153866260</eid>
               <linked>
@@ -6309,7 +6269,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183360743800852</eid>
               <linked>
@@ -6393,7 +6352,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183412283408404</eid>
               <linked>
@@ -6417,7 +6375,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183429463277588</eid>
               <linked>
@@ -6437,7 +6394,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183442348179476</eid>
               <linked>
@@ -6464,7 +6420,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183459528048660</eid>
               <linked>
@@ -6495,7 +6450,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183476707917844</eid>
               <linked>
@@ -6526,7 +6480,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183498182754324</eid>
               <linked>
@@ -6540,7 +6493,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183506772688916</eid>
               <linked>
@@ -6554,7 +6506,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183515362623508</eid>
               <linked>
@@ -6578,7 +6529,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183528247525396</eid>
               <linked>
@@ -6598,7 +6548,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183541132427284</eid>
               <linked>
@@ -6612,7 +6561,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183549722361876</eid>
               <linked>
@@ -6639,7 +6587,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>183566902231060</eid>
               <linked>
@@ -6762,7 +6709,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>183635621707796</eid>
               <linked>
@@ -6850,7 +6796,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>183691456282644</eid>
               <linked>
@@ -6938,7 +6883,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>183747290857492</eid>
               <linked>
@@ -7026,7 +6970,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>183803125432340</eid>
               <linked>
@@ -7114,7 +7057,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>183858960007188</eid>
               <linked>
@@ -7210,7 +7152,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>183923384516628</eid>
               <linked>
@@ -7306,7 +7247,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>183987809026068</eid>
               <linked>
@@ -7402,7 +7342,6 @@
             <linked>
               </linked>
             <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184052233535508</eid>
               <linked>
@@ -7520,7 +7459,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184120953012244</eid>
               <linked>
@@ -7538,7 +7476,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184133837914132</eid>
               <linked>
@@ -7556,7 +7493,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184146722816020</eid>
               <linked>
@@ -7583,7 +7519,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184159607717908</eid>
               <linked>
@@ -7601,7 +7536,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184172492619796</eid>
               <linked>
@@ -7619,7 +7553,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184185377521684</eid>
               <linked>
@@ -7668,7 +7601,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184211147325460</eid>
               <linked>
@@ -7682,7 +7614,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184219737260052</eid>
               <linked>
@@ -7696,7 +7627,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184228327194644</eid>
               <linked>
@@ -7727,7 +7657,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184245507063828</eid>
               <linked>
@@ -7745,7 +7674,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184258391965716</eid>
               <linked>
@@ -7759,7 +7687,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184266981900308</eid>
               <linked>
@@ -7794,7 +7721,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184284161769492</eid>
               <linked>
@@ -7808,7 +7734,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184292751704084</eid>
               <linked>
@@ -7822,7 +7747,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184301341638676</eid>
               <linked>
@@ -7853,7 +7777,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184318521507860</eid>
               <linked>
@@ -7867,7 +7790,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184327111442452</eid>
               <linked>
@@ -7885,7 +7807,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184339996344340</eid>
               <linked>
@@ -8031,7 +7952,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184408715821076</eid>
               <linked>
@@ -8058,7 +7978,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184425895690260</eid>
               <linked>
@@ -8085,7 +8004,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184443075559444</eid>
               <linked>
@@ -8112,7 +8030,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184460255428628</eid>
               <linked>
@@ -8136,7 +8053,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184473140330516</eid>
               <linked>
@@ -8163,7 +8079,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184490320199700</eid>
               <linked>
@@ -8190,7 +8105,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184507500068884</eid>
               <linked>
@@ -8217,7 +8131,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184524679938068</eid>
               <linked>
@@ -8241,7 +8154,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184537564839956</eid>
               <linked>
@@ -8268,7 +8180,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184554744709140</eid>
               <linked>
@@ -8295,7 +8206,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184571924578324</eid>
               <linked>
@@ -8322,7 +8232,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184589104447508</eid>
               <linked>
@@ -8346,7 +8255,6 @@
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184601989349396</eid>
               <linked>
@@ -8500,7 +8408,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184670708826132</eid>
               <linked>
@@ -8515,7 +8422,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184679298760724</eid>
               <linked>
@@ -8529,7 +8435,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184687888695316</eid>
               <linked>
@@ -8548,7 +8453,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184696478629908</eid>
               <linked>
@@ -8563,7 +8467,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184705068564500</eid>
               <linked>
@@ -8577,7 +8480,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184713658499092</eid>
               <linked>
@@ -8596,7 +8498,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184722248433684</eid>
               <linked>
@@ -8611,7 +8512,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184730838368276</eid>
               <linked>
@@ -8625,7 +8525,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184739428302868</eid>
               <linked>
@@ -8643,7 +8542,6 @@
             <linked>
               </linked>
             <durationType>whole</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>184748018237460</eid>
               <linked>
@@ -8662,7 +8560,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184756608172052</eid>
               <linked>
@@ -8677,7 +8574,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184765198106644</eid>
               <linked>
@@ -8691,7 +8587,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184773788041236</eid>
               <linked>
@@ -8710,7 +8605,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184782377975828</eid>
               <linked>
@@ -8725,7 +8619,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184790967910420</eid>
               <linked>
@@ -8743,7 +8636,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184803852812308</eid>
               <linked>
@@ -8775,7 +8667,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184816737714196</eid>
               <linked>
@@ -8798,7 +8689,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184825327648788</eid>
               <linked>
@@ -8812,7 +8702,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184833917583380</eid>
               <linked>
@@ -8831,7 +8720,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184842507517972</eid>
               <linked>
@@ -8846,7 +8734,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184851097452564</eid>
               <linked>
@@ -8860,7 +8747,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184859687387156</eid>
               <linked>
@@ -8945,7 +8831,6 @@
             <linked>
               </linked>
             <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184902637060116</eid>
               <linked>
@@ -8959,7 +8844,6 @@
             <linked>
               </linked>
             <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <eid>184911226994708</eid>
               <linked>
@@ -9711,18 +9595,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185306363985951</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185310658953247</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185314953920532</eid>
               <linked>
@@ -9737,18 +9620,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185323543855135</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185327838822431</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185332133789716</eid>
               <linked>
@@ -9763,18 +9645,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185340723724319</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185345018691615</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185349313658900</eid>
               <linked>
@@ -9796,18 +9677,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185362198560799</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185366493528095</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185370788495380</eid>
               <linked>
@@ -9833,18 +9713,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185383673397279</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185387968364575</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185392263331860</eid>
               <linked>
@@ -9866,18 +9745,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185405148233759</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185409443201055</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185413738168340</eid>
               <linked>
@@ -9899,18 +9777,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185426623070239</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185430918037535</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185435213004820</eid>
               <linked>
@@ -9939,18 +9816,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185452392874015</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185456687841311</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185460982808596</eid>
               <linked>
@@ -9965,18 +9841,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185469572743199</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185473867710495</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185478162677780</eid>
               <linked>
@@ -9991,18 +9866,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185486752612383</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185491047579679</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185495342546964</eid>
               <linked>
@@ -10024,18 +9898,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185508227448863</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185512522416159</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185516817383444</eid>
               <linked>
@@ -10061,18 +9934,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185529702285343</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185533997252639</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185538292219924</eid>
               <linked>
@@ -10094,18 +9966,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185551177121823</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185555472089119</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185559767056404</eid>
               <linked>
@@ -10127,18 +9998,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185572651958303</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185576946925599</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185581241892884</eid>
               <linked>
@@ -10167,18 +10037,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185598421762079</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185602716729375</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185607011696660</eid>
               <linked>
@@ -10193,18 +10062,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185615601631263</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185619896598559</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185624191565844</eid>
               <linked>
@@ -10219,18 +10087,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185632781500447</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185637076467743</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185641371435028</eid>
               <linked>
@@ -10252,18 +10119,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185654256336927</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185658551304223</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185662846271508</eid>
               <linked>
@@ -10289,18 +10155,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185675731173407</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185680026140703</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185684321107988</eid>
               <linked>
@@ -10322,18 +10187,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185697206009887</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185701500977183</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185705795944468</eid>
               <linked>
@@ -10355,18 +10219,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185718680846367</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185722975813663</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185727270780948</eid>
               <linked>
@@ -10391,18 +10254,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185740155682847</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185744450650143</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185748745617428</eid>
               <linked>
@@ -10417,18 +10279,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185757335552031</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185761630519327</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185765925486612</eid>
               <linked>
@@ -10443,18 +10304,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185774515421215</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185778810388511</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185783105355796</eid>
               <linked>
@@ -10476,18 +10336,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185795990257695</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185800285224991</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185804580192276</eid>
               <linked>
@@ -10513,18 +10372,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185817465094175</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185821760061471</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185826055028756</eid>
               <linked>
@@ -10546,18 +10404,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185838939930655</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185843234897951</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185847529865236</eid>
               <linked>
@@ -10579,18 +10436,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185860414767135</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185864709734431</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185869004701716</eid>
               <linked>
@@ -10615,18 +10471,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185881889603615</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185886184570911</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185890479538196</eid>
               <linked>
@@ -10641,18 +10496,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185899069472799</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185903364440095</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185907659407380</eid>
               <linked>
@@ -10667,18 +10521,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185916249341983</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185920544309279</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185924839276564</eid>
               <linked>
@@ -10700,18 +10553,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185937724178463</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185942019145759</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185946314113044</eid>
               <linked>
@@ -10737,18 +10589,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185959199014943</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185963493982239</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185967788949524</eid>
               <linked>
@@ -10770,18 +10621,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>185980673851423</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>185984968818719</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>185989263786004</eid>
               <linked>
@@ -10803,18 +10653,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186002148687903</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186006443655199</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186010738622484</eid>
               <linked>
@@ -10839,18 +10688,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186023623524383</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186027918491679</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186032213458964</eid>
               <linked>
@@ -10865,18 +10713,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186040803393567</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186045098360863</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186049393328148</eid>
               <linked>
@@ -10891,18 +10738,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186057983262751</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186062278230047</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186066573197332</eid>
               <linked>
@@ -10924,18 +10770,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186079458099231</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186083753066527</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186088048033812</eid>
               <linked>
@@ -11078,18 +10923,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186173947379743</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186178242347039</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186182537314324</eid>
               <linked>
@@ -11104,18 +10948,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186191127248927</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186195422216223</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186199717183508</eid>
               <linked>
@@ -11130,18 +10973,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186208307118111</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186212602085407</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186216897052692</eid>
               <linked>
@@ -11163,18 +11005,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186229781954591</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186234076921887</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186238371889172</eid>
               <linked>
@@ -11200,18 +11041,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186251256791071</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186255551758367</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186259846725652</eid>
               <linked>
@@ -11233,18 +11073,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186272731627551</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186277026594847</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186281321562132</eid>
               <linked>
@@ -11266,18 +11105,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186294206464031</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186298501431327</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186302796398612</eid>
               <linked>
@@ -11302,18 +11140,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186315681300511</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186319976267807</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186324271235092</eid>
               <linked>
@@ -11328,18 +11165,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186332861169695</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186337156136991</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186341451104276</eid>
               <linked>
@@ -11354,18 +11190,17 @@
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186350041038879</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186354336006175</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186358630973460</eid>
               <linked>
@@ -11387,18 +11222,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186371515875359</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186375810842655</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186380105809940</eid>
               <linked>
@@ -11424,18 +11258,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186392990711839</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186397285679135</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186401580646420</eid>
               <linked>
@@ -11457,18 +11290,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186414465548319</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186418760515615</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186423055482900</eid>
               <linked>
@@ -11490,18 +11322,17 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>186435940384799</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>186440235352095</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>up</StemDirection>
             <Note>
               <eid>186444530319380</eid>
               <linked>

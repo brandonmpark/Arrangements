@@ -5,6 +5,7 @@ on:
       - '**/*.mscx'
       - '!**/Excerpts/**'
       - '!WIP/**'
+      - '!Tabs/**'
 jobs:
   export-scores:
     runs-on: ubuntu-latest
