@@ -17,7 +17,7 @@ jobs:
       run: |
         # Identify changed files in version history
         git fetch origin ${{ github.event.before }}:${{ github.event.before }}
-        mscxfiles=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.mscx$' | grep -v '/Excerpts/' | tr '\n' ' ')
+        mscxfiles=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.mscx$' | grep -v '/Excerpts/' | grep -v '/WIP/' | tr '\n' ' ')
 
         printf 'MSCXFILES=%s\n' "$mscxfiles" >> $GITHUB_ENV
 
