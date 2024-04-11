@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>35534</LastEID>
+  <LastEID>43317</LastEID>
   <Score>
     <name>Violin 1</name>
     <initialPartId>19</initialPartId>
@@ -37,7 +37,7 @@
     <metaTag name="partName">Violin 1</metaTag>
     <Part id="19">
       <Staff id="1">
-        <linkedTo>21</linkedTo>
+        <linkedTo>24</linkedTo>
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -79,14 +79,14 @@
         <eid>234840221810810</eid>
         <linked>
           <location>
-            <staves>-20</staves>
+            <staves>-23</staves>
             </location>
           </linked>
         <Text>
           <eid>234844516777990</eid>
           <linked>
             <location>
-              <staves>-20</staves>
+              <staves>-23</staves>
               </location>
             </linked>
           <style>title</style>
@@ -96,7 +96,7 @@
           <eid>234848811745286</eid>
           <linked>
             <location>
-              <staves>-20</staves>
+              <staves>-23</staves>
               </location>
             </linked>
           <style>subtitle</style>
@@ -106,7 +106,7 @@
           <eid>234853106712582</eid>
           <linked>
             <location>
-              <staves>-20</staves>
+              <staves>-23</staves>
               </location>
             </linked>
           <style>composer</style>
@@ -139,7 +139,7 @@
             <eid>234870286581807</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               <indexDiff>7</indexDiff>
               </linked>
@@ -168,7 +168,7 @@
             <eid>234883171483702</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               <indexDiff>2</indexDiff>
               </linked>
@@ -178,7 +178,7 @@
             <eid>234887466450993</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               <indexDiff>2</indexDiff>
               </linked>
@@ -1300,7 +1300,7 @@
             <eid>235458697101366</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>B</text>
@@ -2785,7 +2785,7 @@
             <eid>236124417032246</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>C</text>
@@ -2806,7 +2806,7 @@
             <eid>236133006966838</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>C</text>
@@ -4372,7 +4372,7 @@
             <eid>236906101080118</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>D</text>
@@ -4689,7 +4689,7 @@
             <eid>237052129968182</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>E</text>
@@ -6040,7 +6040,7 @@
             <eid>237893943558198</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>F</text>
@@ -6049,7 +6049,7 @@
             <eid>237898238525489</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <bold>1</bold>
@@ -6237,7 +6237,7 @@
             <eid>237979842904118</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>G</text>
@@ -8059,7 +8059,7 @@
             <eid>239126599172150</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>H</text>
@@ -8980,7 +8980,7 @@
             <eid>239667765051446</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>I</text>
@@ -9736,7 +9736,7 @@
             <eid>240144506421302</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>J</text>
@@ -9757,7 +9757,7 @@
             <eid>240153096355894</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>J</text>
@@ -10697,7 +10697,7 @@
             <eid>240732916940854</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>K</text>
@@ -10945,7 +10945,7 @@
             <eid>240870355894326</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>L</text>
@@ -10954,7 +10954,7 @@
             <eid>240874650861617</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <bold>1</bold>
@@ -13367,7 +13367,7 @@
             <eid>242399364251702</eid>
             <linked>
               <location>
-                <staves>-20</staves>
+                <staves>-23</staves>
                 </location>
               </linked>
             <text>M</text>

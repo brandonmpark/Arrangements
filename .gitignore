@@ -1,2 +1,5 @@
-.mscbackup
-.DS_Store
+**/.mscbackup
+**/.DS_Store
+**/Exports
+drive_credentials.json
+token.json
