@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>89685</LastEID>
+  <LastEID>92190</LastEID>
   <Score>
     <name>Tuba</name>
     <initialPartId>14</initialPartId>
@@ -576,6 +576,12 @@
             <durationType>measure</durationType>
             <duration>44/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>387036682911756</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -686,6 +692,12 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>387040977879052</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -698,6 +710,7 @@
               <location>
                 <staves>-14</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 110</text>
             </Tempo>
@@ -707,12 +720,24 @@
               <location>
                 <staves>-14</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <text>C</text>
             </RehearsalMark>
+          <SystemText>
+            <eid>386602891214897</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>Watch for tempo!</text>
+            </SystemText>
           <Rest>
             <eid>247772368338969</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -730,6 +755,7 @@
               <location>
                 <staves>-14</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 110</text>
             </Tempo>
@@ -739,9 +765,20 @@
               <location>
                 <staves>-14</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <text>C</text>
             </RehearsalMark>
+          <SystemText>
+            <eid>386607186182193</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>Watch for tempo!</text>
+            </SystemText>
           <Rest>
             <eid>247785253240858</eid>
             <durationType>measure</durationType>
@@ -888,19 +925,42 @@
             </Rest>
           </voice>
         </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>4</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <eid>387453294739480</eid>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <RehearsalMark>
+            <eid>387457589706806</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <text>D</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>387461884674074</eid>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>247845382783001</eid>
+            <eid>387466179641369</eid>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <eid>247849677750297</eid>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -912,16 +972,6 @@
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="6/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <eid>247858267684890</eid>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1018,8 +1068,8 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="28/4">
-        <multiMeasureRest>7</multiMeasureRest>
+      <Measure len="20/4">
+        <multiMeasureRest>5</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <eid>247909807292470</eid>
@@ -1083,6 +1133,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <timeStretch>1</timeStretch>
+            <eid>390416822173729</eid>
+            <linked>
+              </linked>
+            </Fermata>
           <Rest>
             <eid>247935577096217</eid>
             <linked>
@@ -1094,70 +1151,50 @@
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>0.916667</tempo>
+            <eid>390421117141039</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = <sym>metNoteHalfUp</sym></text>
+            </Tempo>
           <Rest>
-            <eid>247939872063513</eid>
+            <eid>390425412108313</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <eid>390429707075609</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>390434002042905</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>247944167030809</eid>
+            <eid>390438297010201</eid>
             <linked>
               </linked>
             <durationType>half</durationType>
             </Rest>
           <Rest>
-            <eid>247948461998105</eid>
+            <eid>390442591977497</eid>
             <linked>
               </linked>
             <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>247952756965401</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <LayoutBreak>
-          <eid>247957051932752</eid>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <eid>247961346899994</eid>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <eid>247965641867276</eid>
-            <linked>
-              </linked>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>247969936834585</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -3247,6 +3284,15 @@
               </linked>
             <text>N</text>
             </RehearsalMark>
+          <SystemText>
+            <eid>391898585890865</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              </linked>
+            <text>Watch for tempo!</text>
+            </SystemText>
           <Spanner type="GradualTempoChange">
             <GradualTempoChange>
               <tempoChangeType>accelerando</tempoChangeType>
@@ -3290,6 +3336,15 @@
               </linked>
             <text>N</text>
             </RehearsalMark>
+          <SystemText>
+            <eid>391902880858161</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              </linked>
+            <text>Watch for tempo!</text>
+            </SystemText>
           <Rest>
             <eid>248846110162970</eid>
             <durationType>measure</durationType>
@@ -3617,6 +3672,15 @@
         </Measure>
       <Measure>
         <voice>
+          <SystemText>
+            <eid>395914380312625</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              </linked>
+            <text>Watch for tempo!</text>
+            </SystemText>
           <Spanner type="GradualTempoChange">
             <GradualTempoChange>
               <tempoChangeType>ritardando</tempoChangeType>
@@ -3650,6 +3714,15 @@
       <Measure len="8/4">
         <multiMeasureRest>2</multiMeasureRest>
         <voice>
+          <SystemText>
+            <eid>395918675279921</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              </linked>
+            <text>Watch for tempo!</text>
+            </SystemText>
           <Rest>
             <eid>248987844083738</eid>
             <durationType>measure</durationType>
@@ -4204,8 +4277,8 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="32/4">
-        <multiMeasureRest>8</multiMeasureRest>
+      <Measure len="24/4">
+        <multiMeasureRest>6</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <eid>249211182383158</eid>
@@ -4280,6 +4353,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <timeStretch>1</timeStretch>
+            <eid>396249387761697</eid>
+            <linked>
+              </linked>
+            </Fermata>
           <Rest>
             <eid>249241247154201</eid>
             <linked>

@@ -107,7 +107,7 @@ sections = {
     "Strings": ["Violin", "Viola", "Violoncello", "Contrabass", "Strings"],
     "Woodwinds": ["Piccolo", "Flute", "Oboe", "English Horn", "Clarinet", "Bass Clarinet", "Bassoon", "Alto Saxophone", "Tenor Saxophone", "Baritone Saxophone", "Woodwinds"],
     "Brass": ["French Horn", "Trumpet", "Trombone", "Euphonium", "Tuba", "Brass"],
-    "Percussion": ["Timpani", "Drumset", "Tambourine", "Cymbal", "Cymbals", "Shaker", "Percussion"],
+    "Percussion": ["Timpani", "Drumset", "Tambourine", "Cymbal", "Cymbals", "Shaker", "Bass Drum", "Glockenspiel", "Xylophone", "Snare Drum", "Percussion"],
     "Vocals": ["Soprano", "Alto", "Tenor", "Bass", "Vocals"],
 }
 

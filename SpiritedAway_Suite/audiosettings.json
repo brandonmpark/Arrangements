@@ -91,6 +91,46 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "museCategory": "Muse Brass",
+                        "museName": "Trumpets",
+                        "museUID": "109",
+                        "playbackSetupData": "winds.trumpet.section"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Brass\\Trumpets\\109",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Brass"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "bb-trumpet",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 4
+            },
+            "partId": "10",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
                         "museCategory": "Muse Woodwinds",
                         "museName": "Alto Sax",
                         "museUID": "130",
@@ -131,20 +171,60 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Woodwinds",
-                        "museName": "Flute 1",
-                        "museUID": "118",
-                        "playbackSetupData": "winds.flute.primary"
+                        "museCategory": "Muse Percussion",
+                        "museName": "Glockenspiel",
+                        "museUID": "144",
+                        "playbackSetupData": "percussions.glockenspiel"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Flute 1\\118",
+                    "id": "Muse Percussion\\Glockenspiel\\144",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Woodwinds"
+                    "vendor": "Muse Percussion"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "flute",
+            "instrumentId": "glockenspiel",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "16",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Percussion",
+                        "museName": "Bass Drum",
+                        "museUID": "135",
+                        "playbackSetupData": "percussions.drum.bass"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Percussion\\Bass Drum\\135",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Percussion"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "bass-drum",
             "out": {
                 "auxSends": [
                     {
@@ -161,7 +241,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "2",
+            "partId": "18",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -202,6 +282,46 @@
                 "volumeDb": 0
             },
             "partId": "11",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Flute 1",
+                        "museUID": "118",
+                        "playbackSetupData": "winds.flute.primary"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Flute 1\\118",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "flute",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "2",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -331,6 +451,46 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Bass Clarinet",
+                        "museUID": "128",
+                        "playbackSetupData": "winds.clarinet.bass:in_b_flat"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Bass Clarinet\\128",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "bb-bass-clarinet",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.5
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "5",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
                         "museCategory": "Muse Choir",
                         "museName": "Tenors",
                         "museUID": "21",
@@ -411,60 +571,20 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Woodwinds",
-                        "museName": "Bass Clarinet",
-                        "museUID": "128",
-                        "playbackSetupData": "winds.clarinet.bass:in_b_flat"
+                        "museCategory": "Muse Percussion",
+                        "museName": "Xylophone",
+                        "museUID": "162",
+                        "playbackSetupData": "percussions.xylophone"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Bass Clarinet\\128",
+                    "id": "Muse Percussion\\Xylophone\\162",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Woodwinds"
+                    "vendor": "Muse Percussion"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "bb-bass-clarinet",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.5
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "5",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Tuba",
-                        "museUID": "115",
-                        "playbackSetupData": "winds.tuba"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Tuba\\115",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Brass"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "euphonium",
+            "instrumentId": "xylophone",
             "out": {
                 "auxSends": [
                     {
@@ -481,87 +601,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "12",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Percussion",
-                        "museName": "Glockenspiel",
-                        "museUID": "144",
-                        "playbackSetupData": "percussions.glockenspiel"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Percussion\\Glockenspiel\\144",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Percussion"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "glockenspiel",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.20000000298023224
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "16",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Percussion",
-                        "museName": "Bass Drum",
-                        "museUID": "135",
-                        "playbackSetupData": "percussions.drum.bass"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Percussion\\Bass Drum\\135",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Percussion"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "bass-drum",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.4000000059604645
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "18",
+            "partId": "17",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -602,46 +642,6 @@
                 "volumeDb": 0
             },
             "partId": "3",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Percussion",
-                        "museName": "Xylophone",
-                        "museUID": "162",
-                        "playbackSetupData": "percussions.xylophone"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Percussion\\Xylophone\\162",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Percussion"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "xylophone",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.4000000059604645
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "17",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -762,46 +762,6 @@
                 "volumeDb": -7.300000190734863
             },
             "partId": "27",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Trumpets",
-                        "museUID": "109",
-                        "playbackSetupData": "winds.trumpet.section"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trumpets\\109",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Brass"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "bb-trumpet",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.4000000059604645
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 4
-            },
-            "partId": "10",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -1079,7 +1039,7 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 9.300000190734863
             },
             "partId": "38",
             "soloMuteState": {
@@ -1350,6 +1310,44 @@
                 "volumeDb": 5.300000190734863
             },
             "partId": "37",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "euphonium",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": -60
+            },
+            "partId": "42",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
