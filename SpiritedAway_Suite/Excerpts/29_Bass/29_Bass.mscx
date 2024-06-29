@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.20">
-  <programVersion>4.2.0</programVersion>
-  <programRevision>eb8d33c</programRevision>
-  <LastEID>92190</LastEID>
+  <programVersion>4.2.1</programVersion>
+  <programRevision>d757433</programRevision>
+  <LastEID>131765</LastEID>
   <Score>
     <name>Bass</name>
     <initialPartId>35</initialPartId>
@@ -29,7 +29,7 @@
     <metaTag name="partName">Bass</metaTag>
     <Part id="35">
       <Staff id="1">
-        <linkedTo>28</linkedTo>
+        <linkedTo>30</linkedTo>
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -59,7 +59,7 @@
         <eid>304994217623674</eid>
         <linked>
           <location>
-            <staves>-27</staves>
+            <staves>-29</staves>
             </location>
           </linked>
         <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
@@ -67,7 +67,7 @@
           <eid>304998512590854</eid>
           <linked>
             <location>
-              <staves>-27</staves>
+              <staves>-29</staves>
               </location>
             </linked>
           <style>title</style>
@@ -78,7 +78,7 @@
           <eid>305002807558150</eid>
           <linked>
             <location>
-              <staves>-27</staves>
+              <staves>-29</staves>
               </location>
             </linked>
           <style>composer</style>
@@ -110,7 +110,7 @@
             <eid>305019987427382</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
@@ -122,11 +122,11 @@
             <eid>305024282394671</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 78</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 78</text>
             </Tempo>
           <Rest>
             <eid>305028577361945</eid>
@@ -152,7 +152,7 @@
             <eid>305037167296566</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
@@ -164,11 +164,11 @@
             <eid>305041462263855</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 78</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 78</text>
             </Tempo>
           <Rest>
             <eid>305045757231130</eid>
@@ -315,7 +315,7 @@
             <eid>305101591806006</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>A</text>
@@ -336,7 +336,7 @@
             <eid>305110181740598</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>A</text>
@@ -431,7 +431,7 @@
             <eid>305148836446262</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>B</text>
@@ -452,7 +452,7 @@
             <eid>305157426380854</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>B</text>
@@ -547,7 +547,7 @@
             <eid>305196081086518</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>B1</text>
@@ -568,7 +568,7 @@
             <eid>305204671021110</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>B1</text>
@@ -710,7 +710,7 @@
             <eid>305256210628655</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -720,7 +720,7 @@
             <eid>305260505595958</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -730,7 +730,7 @@
             <eid>386637250953265</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -755,7 +755,7 @@
             <eid>305269095530543</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -765,7 +765,7 @@
             <eid>305273390497846</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -775,7 +775,7 @@
             <eid>386641545920561</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -911,9 +911,9 @@
             <eid>305329225072694</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <text>D</text>
             </RehearsalMark>
@@ -942,9 +942,9 @@
             <eid>387509129314358</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <text>D</text>
             </RehearsalMark>
@@ -1052,7 +1052,7 @@
             <eid>305385059647542</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>D1</text>
@@ -1073,7 +1073,7 @@
             <eid>305393649582134</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>D1</text>
@@ -1145,6 +1145,12 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>406432755220492</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -1161,7 +1167,7 @@
             <eid>390829139034159</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -1170,13 +1176,13 @@
           <Chord>
             <eid>390833434001523</eid>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>whole</durationType>
             <Note>
               <eid>390837728968724</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -1252,7 +1258,7 @@
             <eid>305501023764527</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
@@ -1262,7 +1268,7 @@
             <eid>305505318731830</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
@@ -1296,7 +1302,7 @@
             <eid>305518203633711</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
@@ -1306,7 +1312,7 @@
             <eid>305522498601014</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
@@ -1402,7 +1408,7 @@
             <eid>305561153306678</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>E</text>
@@ -1423,7 +1429,7 @@
             <eid>305569743241270</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>E</text>
@@ -1677,7 +1683,7 @@
             <eid>305681412390966</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>F</text>
@@ -1698,7 +1704,7 @@
             <eid>305690002325558</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>F</text>
@@ -1840,7 +1846,7 @@
             <eid>305750131867702</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -1871,7 +1877,7 @@
             <eid>305763016769590</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -1923,9 +1929,8 @@
             <eid>305784491606070</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>G1</text>
             </RehearsalMark>
@@ -2036,6 +2041,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>404212257128483</eid>
+            <linked>
+              </linked>
+            </Dynamic>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -2077,19 +2089,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <eid>305853211082846</eid>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <eid>305857506050163</eid>
             <linked>
@@ -2143,13 +2142,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <eid>305878980886553</eid>
             <linked>
@@ -2219,7 +2211,7 @@
             <eid>305904750690358</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>H</text>
@@ -2239,12 +2231,16 @@
           <eid>305913340624976</eid>
           <subtype>section</subtype>
           </LayoutBreak>
+        <LayoutBreak>
+          <eid>407175784562768</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>305917635592246</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>H</text>
@@ -2322,6 +2318,10 @@
           <eid>305951995330640</eid>
           <subtype>section</subtype>
           </LayoutBreak>
+        <LayoutBreak>
+          <eid>407180079530064</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>305956290297881</eid>
@@ -2359,7 +2359,7 @@
             <eid>305973470167087</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
@@ -2369,7 +2369,7 @@
             <eid>305977765134390</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
@@ -2402,7 +2402,7 @@
             <eid>305990650036271</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
@@ -2412,7 +2412,7 @@
             <eid>305994945003574</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
@@ -2530,7 +2530,7 @@
             <eid>306042189643830</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>I</text>
@@ -2721,7 +2721,7 @@
             <eid>306132383957046</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>J</text>
@@ -2742,7 +2742,7 @@
             <eid>306140973891638</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>J</text>
@@ -2859,7 +2859,7 @@
             <eid>306188218531894</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>K</text>
@@ -2880,7 +2880,7 @@
             <eid>306196808466486</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>K</text>
@@ -3004,7 +3004,7 @@
             <eid>306244053106742</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>2</indexDiff>
               </linked>
@@ -3027,7 +3027,7 @@
             <eid>306252643041334</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               <indexDiff>2</indexDiff>
               </linked>
@@ -3156,7 +3156,7 @@
             <eid>306304182648886</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>L1</text>
@@ -3177,7 +3177,7 @@
             <eid>306312772583478</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>L1</text>
@@ -3290,73 +3290,102 @@
             <eid>306355722256438</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
-              <indexDiff>2</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <text>M</text>
             </RehearsalMark>
-          <Rest>
-            <eid>306360017223705</eid>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>396090473971747</eid>
             <linked>
               <indexDiff>2</indexDiff>
               </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <eid>306364312191030</eid>
+            </Dynamic>
+          <Chord>
+            <eid>396094768939123</eid>
             <linked>
-              <location>
-                <staves>-27</staves>
-                </location>
               <indexDiff>2</indexDiff>
               </linked>
-            <text>M</text>
-            </RehearsalMark>
-          <Rest>
-            <eid>306368607158298</eid>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>396099063906324</eid>
+              <linked>
+                <indexDiff>2</indexDiff>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>306372902125593</eid>
+          <Chord>
+            <eid>396103358873715</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>396107653840916</eid>
+              <linked>
+                </linked>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>306377197092889</eid>
+          <Chord>
+            <eid>396111948808307</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>396116243775508</eid>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>306381492060185</eid>
+          <Chord>
+            <eid>396120538742899</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
+            <durationType>half</durationType>
+            <Note>
+              <eid>396124833710100</eid>
+              <linked>
+                </linked>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>396129128677491</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>396133423644692</eid>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -3373,7 +3402,7 @@
               <eid>306385787027555</eid>
               <linked>
                 <location>
-                  <staves>-27</staves>
+                  <staves>-29</staves>
                   </location>
                 </linked>
               </GradualTempoChange>
@@ -3383,34 +3412,62 @@
                 </location>
               </next>
             </Spanner>
-          <Rest>
-            <eid>306390081994777</eid>
+          <Chord>
+            <eid>396137718612083</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="6/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <eid>306394376962074</eid>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
-            </Rest>
+            <durationType>half</durationType>
+            <Note>
+              <eid>396142013579284</eid>
+              <linked>
+                </linked>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>396146308546675</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>396150603513876</eid>
+              <linked>
+                </linked>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>306398671929369</eid>
+          <Chord>
+            <eid>396154898481267</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
+            <durationType>half</durationType>
+            <Note>
+              <eid>396159193448468</eid>
+              <linked>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>396163488415859</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>396167783383060</eid>
+              <linked>
+                </linked>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -3464,7 +3521,7 @@
             <eid>306428736700463</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 80</text>
@@ -3535,6 +3592,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>407119949987920</eid>
+          <subtype>nobreak</subtype>
+          </LayoutBreak>
         <voice>
           <KeySig>
             <eid>306471686373398</eid>
@@ -3564,20 +3625,11 @@
             <eid>306484571275318</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>N</text>
             </RehearsalMark>
-          <SystemText>
-            <eid>391937240596529</eid>
-            <linked>
-              <location>
-                <staves>-27</staves>
-                </location>
-              </linked>
-            <text>Watch for tempo!</text>
-            </SystemText>
           <Spanner type="GradualTempoChange">
             <GradualTempoChange>
               <tempoChangeType>accelerando</tempoChangeType>
@@ -3590,7 +3642,7 @@
               <eid>306488866242659</eid>
               <linked>
                 <location>
-                  <staves>-27</staves>
+                  <staves>-29</staves>
                   </location>
                 </linked>
               </GradualTempoChange>
@@ -3611,25 +3663,20 @@
         </Measure>
       <Measure len="16/4">
         <multiMeasureRest>4</multiMeasureRest>
+        <LayoutBreak>
+          <eid>407124244955216</eid>
+          <subtype>nobreak</subtype>
+          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>306497456177206</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>N</text>
             </RehearsalMark>
-          <SystemText>
-            <eid>391941535563825</eid>
-            <linked>
-              <location>
-                <staves>-27</staves>
-                </location>
-              </linked>
-            <text>Watch for tempo!</text>
-            </SystemText>
           <Rest>
             <eid>306501751144474</eid>
             <durationType>measure</durationType>
@@ -3660,6 +3707,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>407128539922512</eid>
+          <subtype>nobreak</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>306514636046361</eid>
@@ -3673,29 +3724,22 @@
       <Measure>
         <voice>
           <KeySig>
-            <eid>306518931013654</eid>
+            <eid>550786606039062</eid>
             <linked>
               </linked>
             <concertKey>0</concertKey>
             </KeySig>
-          <TimeSig>
-            <eid>306523225980952</eid>
-            <linked>
-              </linked>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Tempo>
             <tempo>2.166667</tempo>
             <followText>1</followText>
-            <eid>306527520948271</eid>
+            <eid>550790901006383</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 130</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 130</text>
             </Tempo>
           <Spanner type="GradualTempoChange">
             <prev>
@@ -3705,9 +3749,9 @@
               </prev>
             </Spanner>
           <Rest>
-            <eid>306531815915545</eid>
+            <eid>550795195973657</eid>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -3717,27 +3761,20 @@
       <Measure len="8/4">
         <multiMeasureRest>2</multiMeasureRest>
         <voice>
-          <TimeSig>
-            <eid>306536110882840</eid>
-            <linked>
-              </linked>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Tempo>
             <tempo>2.166667</tempo>
             <followText>1</followText>
-            <eid>306540405850159</eid>
+            <eid>550799490940975</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 130</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 130</text>
             </Tempo>
           <Rest>
-            <eid>306544700817434</eid>
+            <eid>550803785908250</eid>
             <durationType>measure</durationType>
             <duration>8/4</duration>
             </Rest>
@@ -3746,7 +3783,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306548995784729</eid>
+            <eid>550808080875545</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -3757,16 +3794,16 @@
       <Measure>
         <voice>
           <RehearsalMark>
-            <eid>306553290752054</eid>
+            <eid>550812375842870</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>O</text>
             </RehearsalMark>
           <Rest>
-            <eid>306557585719321</eid>
+            <eid>550816670810137</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -3778,16 +3815,16 @@
         <multiMeasureRest>8</multiMeasureRest>
         <voice>
           <RehearsalMark>
-            <eid>306561880686646</eid>
+            <eid>550820965777462</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>O</text>
             </RehearsalMark>
           <Rest>
-            <eid>306566175653914</eid>
+            <eid>550825260744730</eid>
             <durationType>measure</durationType>
             <duration>32/4</duration>
             </Rest>
@@ -3796,7 +3833,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306570470621209</eid>
+            <eid>550829555712025</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -3807,7 +3844,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306574765588505</eid>
+            <eid>550833850679321</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -3818,7 +3855,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306579060555801</eid>
+            <eid>550838145646617</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -3829,7 +3866,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306583355523097</eid>
+            <eid>550842440613913</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -3840,7 +3877,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306587650490393</eid>
+            <eid>550846735581209</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -3851,7 +3888,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306591945457689</eid>
+            <eid>550851030548505</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -3862,7 +3899,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306596240424985</eid>
+            <eid>550855325515801</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -3873,29 +3910,30 @@
       <Measure>
         <voice>
           <RehearsalMark>
-            <eid>306600535392310</eid>
+            <eid>550859620483126</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <minDistance>0.285089</minDistance>
+            <offset x="0.221079" y="-1.07706"/>
             <text>O1</text>
             </RehearsalMark>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <eid>306604830359587</eid>
+            <eid>550863915450403</eid>
             <linked>
               </linked>
             </Dynamic>
           <Chord>
-            <eid>306609125326963</eid>
+            <eid>550868210417779</eid>
             <linked>
               </linked>
             <durationType>whole</durationType>
             <Note>
-              <eid>306613420294164</eid>
+              <eid>550872505384980</eid>
               <linked>
                 </linked>
               <pitch>57</pitch>
@@ -3907,12 +3945,12 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>306617715261555</eid>
+            <eid>550876800352371</eid>
             <linked>
               </linked>
             <durationType>whole</durationType>
             <Note>
-              <eid>306622010228756</eid>
+              <eid>550881095319572</eid>
               <linked>
                 </linked>
               <pitch>52</pitch>
@@ -3924,12 +3962,12 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>306626305196147</eid>
+            <eid>550885390286963</eid>
             <linked>
               </linked>
             <durationType>whole</durationType>
             <Note>
-              <eid>306630600163348</eid>
+              <eid>550889685254164</eid>
               <linked>
                 </linked>
               <pitch>48</pitch>
@@ -3941,12 +3979,12 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>306634895130739</eid>
+            <eid>550893980221555</eid>
             <linked>
               </linked>
             <durationType>whole</durationType>
             <Note>
-              <eid>306639190097940</eid>
+              <eid>550898275188756</eid>
               <linked>
                 </linked>
               <pitch>55</pitch>
@@ -3958,12 +3996,12 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>306643485065331</eid>
+            <eid>550902570156147</eid>
             <linked>
               </linked>
             <durationType>whole</durationType>
             <Note>
-              <eid>306647780032532</eid>
+              <eid>550906865123348</eid>
               <linked>
                 </linked>
               <pitch>57</pitch>
@@ -3975,10 +4013,10 @@
       <Measure>
         <voice>
           <SystemText>
-            <eid>395944445083697</eid>
+            <eid>550911160090673</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>Watch for tempo!</text>
@@ -3991,10 +4029,52 @@
               <endHookHeight>1.9</endHookHeight>
               <beginText>rit.</beginText>
               <beginTextOffset x="0" y="0"/>
-              <eid>306652074999907</eid>
+              <eid>550915455058019</eid>
               <linked>
                 <location>
-                  <staves>-27</staves>
+                  <staves>-29</staves>
+                  </location>
+                </linked>
+              </GradualTempoChange>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="GradualTempoChange">
+            <GradualTempoChange>
+              <tempoChangeType>ritardando</tempoChangeType>
+              <beginHookHeight>1.9</beginHookHeight>
+              <endHookType>0</endHookType>
+              <endHookHeight>1.9</endHookHeight>
+              <beginText>rit.</beginText>
+              <beginTextOffset x="0" y="0"/>
+              <eid>550919750025315</eid>
+              <linked>
+                <location>
+                  <staves>-12</staves>
+                  </location>
+                </linked>
+              </GradualTempoChange>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="GradualTempoChange">
+            <GradualTempoChange>
+              <tempoChangeType>ritardando</tempoChangeType>
+              <beginHookHeight>1.9</beginHookHeight>
+              <endHookType>0</endHookType>
+              <endHookHeight>1.9</endHookHeight>
+              <beginText>rit.</beginText>
+              <beginTextOffset x="0" y="0"/>
+              <eid>550924044992611</eid>
+              <linked>
+                <location>
+                  <staves>-11</staves>
                   </location>
                 </linked>
               </GradualTempoChange>
@@ -4005,12 +4085,12 @@
               </next>
             </Spanner>
           <Chord>
-            <eid>306656369967219</eid>
+            <eid>550928339959923</eid>
             <linked>
               </linked>
             <durationType>whole</durationType>
             <Note>
-              <eid>306660664934420</eid>
+              <eid>550932634927124</eid>
               <linked>
                 </linked>
               <pitch>57</pitch>
@@ -4022,12 +4102,12 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>306664959901811</eid>
+            <eid>550936929894515</eid>
             <linked>
               </linked>
             <durationType>whole</durationType>
             <Note>
-              <eid>306669254869012</eid>
+              <eid>550941224861716</eid>
               <linked>
                 </linked>
               <pitch>50</pitch>
@@ -4041,14 +4121,28 @@
           <Tempo>
             <tempo>1.3</tempo>
             <followText>1</followText>
-            <eid>306673549836335</eid>
+            <eid>550945519829039</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 78</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 78</text>
             </Tempo>
+          <Spanner type="GradualTempoChange">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="GradualTempoChange">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="GradualTempoChange">
             <prev>
               <location>
@@ -4059,7 +4153,7 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <eid>306677844803678</eid>
+              <eid>550949814796382</eid>
               <linked>
                 </linked>
               </HairPin>
@@ -4070,12 +4164,12 @@
               </next>
             </Spanner>
           <Chord>
-            <eid>306682139770995</eid>
+            <eid>550954109763699</eid>
             <linked>
               </linked>
             <durationType>whole</durationType>
             <Note>
-              <eid>306686434738196</eid>
+              <eid>550958404730900</eid>
               <linked>
                 </linked>
               <pitch>50</pitch>
@@ -4089,7 +4183,7 @@
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
-            <eid>306690729705507</eid>
+            <eid>550962699698211</eid>
             <linked>
               </linked>
             </Dynamic>
@@ -4101,7 +4195,7 @@
               </prev>
             </Spanner>
           <Rest>
-            <eid>306695024672793</eid>
+            <eid>550966994665497</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4112,7 +4206,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306699319640089</eid>
+            <eid>550971289632793</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4124,7 +4218,7 @@
         <multiMeasureRest>3</multiMeasureRest>
         <voice>
           <Rest>
-            <eid>306703614607386</eid>
+            <eid>550975584600090</eid>
             <durationType>measure</durationType>
             <duration>12/4</duration>
             </Rest>
@@ -4133,7 +4227,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306707909574681</eid>
+            <eid>550979879567385</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4144,7 +4238,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306712204541977</eid>
+            <eid>550984174534681</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4155,16 +4249,16 @@
       <Measure>
         <voice>
           <RehearsalMark>
-            <eid>306716499509302</eid>
+            <eid>550988469502006</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>P</text>
             </RehearsalMark>
           <Rest>
-            <eid>306720794476569</eid>
+            <eid>550992764469273</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4176,16 +4270,16 @@
         <multiMeasureRest>8</multiMeasureRest>
         <voice>
           <RehearsalMark>
-            <eid>306725089443894</eid>
+            <eid>550997059436598</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>P</text>
             </RehearsalMark>
           <Rest>
-            <eid>306729384411162</eid>
+            <eid>551001354403866</eid>
             <durationType>measure</durationType>
             <duration>32/4</duration>
             </Rest>
@@ -4194,7 +4288,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306733679378457</eid>
+            <eid>551005649371161</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4205,7 +4299,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306737974345753</eid>
+            <eid>551009944338457</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4216,7 +4310,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306742269313049</eid>
+            <eid>551014239305753</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4227,7 +4321,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306746564280345</eid>
+            <eid>551018534273049</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4238,7 +4332,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306750859247641</eid>
+            <eid>551022829240345</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4249,7 +4343,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306755154214937</eid>
+            <eid>551027124207641</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4260,7 +4354,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306759449182233</eid>
+            <eid>551031419174937</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4271,16 +4365,17 @@
       <Measure>
         <voice>
           <RehearsalMark>
-            <eid>306763744149558</eid>
+            <eid>551035714142262</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <text>P1</text>
             </RehearsalMark>
           <Rest>
-            <eid>306768039116825</eid>
+            <eid>551040009109529</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4292,16 +4387,17 @@
         <multiMeasureRest>7</multiMeasureRest>
         <voice>
           <RehearsalMark>
-            <eid>306772334084150</eid>
+            <eid>551044304076854</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <text>P1</text>
             </RehearsalMark>
           <Rest>
-            <eid>306776629051418</eid>
+            <eid>551048599044122</eid>
             <durationType>measure</durationType>
             <duration>28/4</duration>
             </Rest>
@@ -4310,7 +4406,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306780924018713</eid>
+            <eid>551052894011417</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4321,7 +4417,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306785218986009</eid>
+            <eid>551057188978713</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4332,7 +4428,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306789513953305</eid>
+            <eid>551061483946009</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4343,7 +4439,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306793808920601</eid>
+            <eid>551065778913305</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4354,7 +4450,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306798103887897</eid>
+            <eid>551070073880601</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4365,7 +4461,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306802398855193</eid>
+            <eid>551074368847897</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4376,7 +4472,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306806693822489</eid>
+            <eid>551078663815193</eid>
             <linked>
               </linked>
             <durationType>half</durationType>
@@ -4384,17 +4480,17 @@
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <eid>306810988789795</eid>
+            <eid>551082958782499</eid>
             <linked>
               </linked>
             </Dynamic>
           <Chord>
-            <eid>306815283757171</eid>
+            <eid>551087253749875</eid>
             <linked>
               </linked>
             <durationType>quarter</durationType>
             <Note>
-              <eid>306819578724372</eid>
+              <eid>551091548717076</eid>
               <linked>
                 </linked>
               <pitch>52</pitch>
@@ -4402,12 +4498,12 @@
               </Note>
             </Chord>
           <Chord>
-            <eid>306823873691763</eid>
+            <eid>551095843684467</eid>
             <linked>
               </linked>
             <durationType>quarter</durationType>
             <Note>
-              <eid>306828168658964</eid>
+              <eid>551100138651668</eid>
               <linked>
                 </linked>
               <pitch>53</pitch>
@@ -4419,22 +4515,21 @@
       <Measure>
         <voice>
           <RehearsalMark>
-            <eid>306832463626294</eid>
+            <eid>551104433618998</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>Q</text>
             </RehearsalMark>
           <Chord>
-            <eid>306836758593651</eid>
+            <eid>551108728586355</eid>
             <linked>
               </linked>
             <durationType>half</durationType>
             <Note>
-              <eid>306841053560852</eid>
+              <eid>551113023553556</eid>
               <linked>
                 </linked>
               <pitch>55</pitch>
@@ -4442,12 +4537,12 @@
               </Note>
             </Chord>
           <Chord>
-            <eid>306845348528243</eid>
+            <eid>551117318520947</eid>
             <linked>
               </linked>
             <durationType>half</durationType>
             <Note>
-              <eid>306849643495444</eid>
+              <eid>551121613488148</eid>
               <linked>
                 </linked>
               <pitch>53</pitch>
@@ -4459,12 +4554,12 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>306853938462835</eid>
+            <eid>551125908455539</eid>
             <linked>
               </linked>
             <durationType>half</durationType>
             <Note>
-              <eid>306858233430036</eid>
+              <eid>551130203422740</eid>
               <linked>
                 </linked>
               <pitch>52</pitch>
@@ -4472,12 +4567,12 @@
               </Note>
             </Chord>
           <Chord>
-            <eid>306862528397427</eid>
+            <eid>551134498390131</eid>
             <linked>
               </linked>
             <durationType>half</durationType>
             <Note>
-              <eid>306866823364628</eid>
+              <eid>551138793357332</eid>
               <linked>
                 </linked>
               <pitch>53</pitch>
@@ -4489,12 +4584,12 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>306871118332019</eid>
+            <eid>551143088324723</eid>
             <linked>
               </linked>
             <durationType>half</durationType>
             <Note>
-              <eid>306875413299220</eid>
+              <eid>551147383291924</eid>
               <linked>
                 </linked>
               <pitch>43</pitch>
@@ -4502,12 +4597,12 @@
               </Note>
             </Chord>
           <Chord>
-            <eid>306879708266611</eid>
+            <eid>551151678259315</eid>
             <linked>
               </linked>
             <durationType>half</durationType>
             <Note>
-              <eid>306884003233812</eid>
+              <eid>551155973226516</eid>
               <linked>
                 </linked>
               <pitch>47</pitch>
@@ -4519,12 +4614,12 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>306888298201203</eid>
+            <eid>551160268193907</eid>
             <linked>
               </linked>
             <durationType>whole</durationType>
             <Note>
-              <eid>306892593168404</eid>
+              <eid>551164563161108</eid>
               <linked>
                 </linked>
               <pitch>48</pitch>
@@ -4536,13 +4631,13 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>306896888135795</eid>
+            <eid>551168858128499</eid>
             <linked>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <eid>306901183102996</eid>
+              <eid>551173153095700</eid>
               <linked>
                 </linked>
               <pitch>52</pitch>
@@ -4550,12 +4645,12 @@
               </Note>
             </Chord>
           <Chord>
-            <eid>306905478070387</eid>
+            <eid>551177448063091</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
             <Note>
-              <eid>306909773037588</eid>
+              <eid>551181743030292</eid>
               <linked>
                 </linked>
               <pitch>45</pitch>
@@ -4563,17 +4658,17 @@
               </Note>
             </Chord>
           <Chord>
-            <eid>306914068004979</eid>
+            <eid>551186037997683</eid>
             <linked>
               </linked>
             <durationType>half</durationType>
             <Note>
-              <eid>306918362972180</eid>
+              <eid>551190332964884</eid>
               <linked>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
-                  <eid>306922657939486</eid>
+                  <eid>551194627932190</eid>
                   <linked>
                     </linked>
                   </Tie>
@@ -4595,7 +4690,7 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <eid>306926952906846</eid>
+              <eid>551198922899550</eid>
               <linked>
                 </linked>
               </HairPin>
@@ -4606,12 +4701,12 @@
               </next>
             </Spanner>
           <Chord>
-            <eid>306931247874163</eid>
+            <eid>551203217866867</eid>
             <linked>
               </linked>
             <durationType>whole</durationType>
             <Note>
-              <eid>306935542841364</eid>
+              <eid>551207512834068</eid>
               <linked>
                 </linked>
               <Spanner type="Tie">
@@ -4633,7 +4728,7 @@
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
-            <eid>306939837808675</eid>
+            <eid>551211807801379</eid>
             <linked>
               </linked>
             </Dynamic>
@@ -4645,7 +4740,7 @@
               </prev>
             </Spanner>
           <Rest>
-            <eid>306944132775961</eid>
+            <eid>551216102768665</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4656,7 +4751,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306948427743257</eid>
+            <eid>551220397735961</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4667,16 +4762,16 @@
       <Measure>
         <voice>
           <RehearsalMark>
-            <eid>306952722710582</eid>
+            <eid>551224692703286</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>R</text>
             </RehearsalMark>
           <Rest>
-            <eid>306957017677849</eid>
+            <eid>551228987670553</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4688,16 +4783,16 @@
         <multiMeasureRest>4</multiMeasureRest>
         <voice>
           <RehearsalMark>
-            <eid>306961312645174</eid>
+            <eid>551233282637878</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>R</text>
             </RehearsalMark>
           <Rest>
-            <eid>306965607612442</eid>
+            <eid>551237577605146</eid>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
@@ -4706,7 +4801,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306969902579737</eid>
+            <eid>551241872572441</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4717,7 +4812,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306974197547033</eid>
+            <eid>551246167539737</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4728,7 +4823,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>306978492514329</eid>
+            <eid>551250462507033</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4739,16 +4834,16 @@
       <Measure>
         <voice>
           <RehearsalMark>
-            <eid>306982787481654</eid>
+            <eid>551254757474358</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>R1</text>
             </RehearsalMark>
           <Rest>
-            <eid>306987082448921</eid>
+            <eid>551259052441625</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4760,25 +4855,25 @@
         <multiMeasureRest>6</multiMeasureRest>
         <voice>
           <RehearsalMark>
-            <eid>306991377416246</eid>
+            <eid>551263347408950</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>R1</text>
             </RehearsalMark>
           <Rest>
-            <eid>306995672383514</eid>
+            <eid>551267642376218</eid>
             <durationType>measure</durationType>
-            <duration>32/4</duration>
+            <duration>24/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>306999967350809</eid>
+            <eid>551271937343513</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4789,7 +4884,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307004262318105</eid>
+            <eid>551276232310809</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4800,7 +4895,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307008557285401</eid>
+            <eid>551280527278105</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4811,7 +4906,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307012852252697</eid>
+            <eid>551284822245401</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4822,7 +4917,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307017147219993</eid>
+            <eid>551289117212697</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4835,12 +4930,12 @@
           <Fermata>
             <subtype>fermataAbove</subtype>
             <timeStretch>1</timeStretch>
-            <eid>396275157565473</eid>
+            <eid>551293412180001</eid>
             <linked>
               </linked>
             </Fermata>
           <Rest>
-            <eid>307021442187289</eid>
+            <eid>551297707147289</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4851,7 +4946,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307025737154585</eid>
+            <eid>551302002114585</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4862,16 +4957,16 @@
       <Measure>
         <voice>
           <RehearsalMark>
-            <eid>307030032121910</eid>
+            <eid>551306297081910</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>S(pirited Away)</text>
             </RehearsalMark>
           <Rest>
-            <eid>307034327089177</eid>
+            <eid>551310592049177</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4883,25 +4978,25 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <RehearsalMark>
-            <eid>307038622056502</eid>
+            <eid>551314887016502</eid>
             <linked>
               <location>
-                <staves>-27</staves>
+                <staves>-29</staves>
                 </location>
               </linked>
             <text>S(pirited Away)</text>
             </RehearsalMark>
           <Rest>
-            <eid>307042917023770</eid>
+            <eid>551319181983770</eid>
             <durationType>measure</durationType>
-            <duration>40/4</duration>
+            <duration>36/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>307047211991065</eid>
+            <eid>551323476951065</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4912,7 +5007,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307051506958361</eid>
+            <eid>551327771918361</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4923,7 +5018,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307055801925657</eid>
+            <eid>551332066885657</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4934,7 +5029,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307060096892953</eid>
+            <eid>551336361852953</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4945,7 +5040,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307064391860249</eid>
+            <eid>551340656820249</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4956,7 +5051,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307068686827545</eid>
+            <eid>551344951787545</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4967,7 +5062,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307072981794841</eid>
+            <eid>551349246754841</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4978,7 +5073,7 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307077276762137</eid>
+            <eid>551353541722137</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -4989,10 +5084,11 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>307081571729433</eid>
+            <eid>565599948242969</eid>
             <linked>
               </linked>
-            <durationType>whole</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>

@@ -14,35 +14,37 @@ from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 
 """ DRIVE UPLOAD STARTS HERE """
-SCOPES = ['https://www.googleapis.com/auth/drive']
-CREDENTIALS_FILE = 'drive_credentials.json'
+SCOPES = ["https://www.googleapis.com/auth/drive"]
+CREDENTIALS_FILE = "drive_credentials.json"
 
 
 def create_drive_service():
     creds = None
     # The file token.json stores the user's access and refresh tokens.
-    if os.path.exists('token.json'):
-        creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+    # if os.path.exists('token.json'):
+    # creds = Credentials.from_authorized_user_file('token.json', SCOPES)
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                CREDENTIALS_FILE, SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file(CREDENTIALS_FILE, SCOPES)
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
-        with open('token.json', 'w') as token:
+        with open("token.json", "w") as token:
             token.write(creds.to_json())
-    return build('drive', 'v3', credentials=creds)
+    return build("drive", "v3", credentials=creds)
 
 
 def find_file_in_folder(service, folder_id, file_name):
     query = f"name = '{file_name}' and '{folder_id}' in parents and trashed = false"
-    response = service.files().list(q=query, spaces='drive',
-                                    fields='files(id, name)').execute()
-    for file in response.get('files', []):
-        return file.get('id')
+    response = (
+        service.files()
+        .list(q=query, spaces="drive", fields="files(id, name)")
+        .execute()
+    )
+    for file in response.get("files", []):
+        return file.get("id")
     return None
 
 
@@ -51,32 +53,39 @@ def get_or_create_folder(service, folder_name, parent_folder_id=None):
     if parent_folder_id:
         query += f" and '{parent_folder_id}' in parents"
     query += " and trashed=false"
-    results = service.files().list(q=query, spaces='drive',
-                                   fields='files(id, name)').execute()
-    folders = results.get('files', [])
+    results = (
+        service.files()
+        .list(q=query, spaces="drive", fields="files(id, name)")
+        .execute()
+    )
+    folders = results.get("files", [])
     if folders:
-        return folders[0]['id']
+        return folders[0]["id"]
     else:
-        folder_metadata = {'name': folder_name,
-                           'mimeType': 'application/vnd.google-apps.folder'}
+        folder_metadata = {
+            "name": folder_name,
+            "mimeType": "application/vnd.google-apps.folder",
+        }
         if parent_folder_id:
-            folder_metadata['parents'] = [parent_folder_id]
-        folder = service.files().create(body=folder_metadata, fields='id').execute()
-        return folder['id']
+            folder_metadata["parents"] = [parent_folder_id]
+        folder = service.files().create(body=folder_metadata, fields="id").execute()
+        return folder["id"]
 
 
 def upload_or_update_file(service, folder_id, file_name, file_path):
     file_id = find_file_in_folder(service, folder_id, file_name)
     # Removed 'parents' from here for update
-    file_metadata = {'name': file_name}
-    media = MediaFileUpload(file_path, mimetype='application/pdf')
+    file_metadata = {"name": file_name}
+    media = MediaFileUpload(file_path, mimetype="application/pdf")
     if file_id:
         service.files().update(
-            fileId=file_id, body=file_metadata, media_body=media).execute()
+            fileId=file_id, body=file_metadata, media_body=media
+        ).execute()
     else:
-        file_metadata['parents'] = [folder_id]
-        service.files().create(body=file_metadata,
-                                      media_body=media, fields='id').execute()
+        file_metadata["parents"] = [folder_id]
+        service.files().create(
+            body=file_metadata, media_body=media, fields="id"
+        ).execute()
 
 
 def write_part(part, pdf, exports, title):
@@ -98,22 +107,51 @@ def upload_directory(service, folder_id, folder_path):
             if relative_path != ".":
                 for folder_name in relative_path.split(os.sep):
                     current_folder_id = get_or_create_folder(
-                        service, folder_name, current_folder_id)
-            upload_or_update_file(
-                service, current_folder_id, filename, file_path)
+                        service, folder_name, current_folder_id
+                    )
+            upload_or_update_file(service, current_folder_id, filename, file_path)
+
+
 """ DRIVE UPLOAD ENDS HERE """
 
 sections = {
     "Strings": ["Violin", "Viola", "Violoncello", "Contrabass", "Strings"],
-    "Woodwinds": ["Piccolo", "Flute", "Oboe", "English Horn", "Clarinet", "Bass Clarinet", "Bassoon", "Alto Saxophone", "Tenor Saxophone", "Baritone Saxophone", "Woodwinds"],
+    "Woodwinds": [
+        "Piccolo",
+        "Flute",
+        "Oboe",
+        "English Horn",
+        "Clarinet",
+        "Bass Clarinet",
+        "Bassoon",
+        "Alto Saxophone",
+        "Tenor Saxophone",
+        "Baritone Saxophone",
+        "Woodwinds",
+    ],
     "Brass": ["French Horn", "Trumpet", "Trombone", "Euphonium", "Tuba", "Brass"],
-    "Percussion": ["Timpani", "Drumset", "Tambourine", "Cymbal", "Cymbals", "Shaker", "Bass Drum", "Glockenspiel", "Xylophone", "Snare Drum", "Percussion"],
+    "Percussion": [
+        "Timpani",
+        "Drumset",
+        "Tambourine",
+        "Cymbal",
+        "Cymbals",
+        "Shaker",
+        "Bass Drum",
+        "Glockenspiel",
+        "Xylophone",
+        "Snare Drum",
+        "Suspended Cymbal",
+        "Crash Cymbal",
+        "Percussion",
+    ],
     "Vocals": ["Soprano", "Alto", "Tenor", "Bass", "Vocals"],
 }
 
 for section, instruments in sections.items():
     sections[section] = re.compile(
-        f"^(?:{'|'.join(re.escape(instrument) for instrument in instruments)})(?: \d+|\s*\(.*\))?$")
+        f"^(?:{'|'.join(re.escape(instrument) for instrument in instruments)})(?: \d+|\s*\(.*\))?$"
+    )
 
 
 def get_section(part):
@@ -122,11 +160,11 @@ def get_section(part):
             return section
     return "Other"
 
+
 def export_parts(path):
     print(f"Exporting parts for {path}...")
     command = ["mscore", path, "--score-parts-pdf"]
-    result = subprocess.run(
-        command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     output = json.loads(result.stdout.decode("utf-8"))
 
     dir = os.path.dirname(path)
@@ -143,17 +181,14 @@ def export_parts(path):
 
     for part, pdf in zip(output["parts"], output["partsBin"]):
         write_part(part, pdf, exports, title)
-    
+
     print("Exporting score...")
     command = ["mscore", path, "-o", f"{exports}/{title}.pdf"]
-    result = subprocess.run(
-        command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     command = ["mscore", path, "-o", f"{exports}/{title}.mscz"]
-    result = subprocess.run(
-        command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     command = ["mscore", path, "-o", f"{exports}/{title}.mp3"]
-    result = subprocess.run(
-        command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     drive_folder_id = config.get("drive")
     if drive_folder_id:

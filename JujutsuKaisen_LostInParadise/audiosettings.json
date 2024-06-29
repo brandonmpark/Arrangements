@@ -1,0 +1,551 @@
+{
+    "activeSoundProfile": "Muse Sounds",
+    "aux": [
+        {
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                    "0": {
+                        "active": true,
+                        "chainOrder": 0,
+                        "resourceMeta": {
+                            "attributes": {
+                            },
+                            "hasNativeEditorSupport": true,
+                            "id": "Muse Reverb",
+                            "type": "muse_plugin",
+                            "vendor": "Muse"
+                        },
+                        "unitConfiguration": {
+                        }
+                    }
+                },
+                "volumeDb": 0
+            },
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        }
+    ],
+    "master": {
+        "balance": 0,
+        "fxChain": {
+        },
+        "volumeDb": 0
+    },
+    "tracks": [
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "shaker",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "14",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Guitars Vol 1",
+                        "museName": "Electric LP - Clean",
+                        "museUID": "13014",
+                        "playbackSetupData": "strings.guitar.plucked:electric"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Guitars Vol 1\\Electric LP - Clean\\13014",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Guitars Vol. 1"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "electric-guitar-tablature",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "7",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Percussion",
+                        "museName": "Xylophone",
+                        "museUID": "162",
+                        "playbackSetupData": "percussions.xylophone"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Percussion\\Xylophone\\162",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Percussion"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "xylophone",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "16",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Percussion",
+                        "museName": "Tambourine",
+                        "museUID": "154",
+                        "playbackSetupData": "percussions.tambourine"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Percussion\\Tambourine\\154",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Percussion"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "tambourine",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "19",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Baritone Sax",
+                        "museUID": "132",
+                        "playbackSetupData": "winds.saxophone.baritone"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Baritone Sax\\132",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "baritone-saxophone",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 2.700000047683716
+            },
+            "partId": "3",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "hand-clap",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "17",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "drumset",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "6",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "5-string-electric-bass-tab",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 2.700000047683716
+            },
+            "partId": "8",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Soprano Sax",
+                        "museUID": "129",
+                        "playbackSetupData": "winds.saxophone.soprano"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Soprano Sax\\129",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "soprano-saxophone",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 3.299999952316284
+            },
+            "partId": "18",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Tenor Sax",
+                        "museUID": "131",
+                        "playbackSetupData": "winds.saxophone.tenor"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Tenor Sax\\131",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "tenor-saxophone",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 2
+            },
+            "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Alto Sax",
+                        "museUID": "130",
+                        "playbackSetupData": "winds.saxophone.alto"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Alto Sax\\130",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "alto-saxophone",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 2
+            },
+            "partId": "1",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Keys",
+                        "museName": "Grand Piano",
+                        "museUID": "167",
+                        "playbackSetupData": "keyboards.piano"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Keys\\Grand Piano\\167",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Keys"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "piano",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.15000000596046448
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "13",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "metronome",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "999",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        }
+    ]
+}

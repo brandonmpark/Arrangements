@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <rootfiles>
+    <rootfile full-path="score_style.mss"/>
+    <rootfile full-path="JujutsuKaisen_LostInParadise.mscx"/>
+    <rootfile full-path="Excerpts/0_Piano/0_Piano.mss"/>
+    <rootfile full-path="Excerpts/0_Piano/0_Piano.mscx"/>
+    <rootfile full-path="Excerpts/1_5-str._Electric_Bass/1_5-str._Electric_Bass.mss"/>
+    <rootfile full-path="Excerpts/1_5-str._Electric_Bass/1_5-str._Electric_Bass.mscx"/>
+    <rootfile full-path="Excerpts/2_Electric_Guitar/2_Electric_Guitar.mss"/>
+    <rootfile full-path="Excerpts/2_Electric_Guitar/2_Electric_Guitar.mscx"/>
+    <rootfile full-path="Thumbnails/thumbnail.png"/>
+    <rootfile full-path="audiosettings.json"/>
+    <rootfile full-path="viewsettings.json"/>
+    <rootfile full-path="Excerpts/0_Piano/viewsettings.json"/>
+    <rootfile full-path="Excerpts/1_5-str._Electric_Bass/viewsettings.json"/>
+    <rootfile full-path="Excerpts/2_Electric_Guitar/viewsettings.json"/>
+    </rootfiles>
+  </container>

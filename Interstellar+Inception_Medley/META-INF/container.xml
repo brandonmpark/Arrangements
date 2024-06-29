@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <rootfiles>
+    <rootfile full-path="score_style.mss"/>
+    <rootfile full-path="Interstellar+Inception_Medley.mscx"/>
+    <rootfile full-path="Excerpts/0_Violin_1/0_Violin_1.mss"/>
+    <rootfile full-path="Excerpts/0_Violin_1/0_Violin_1.mscx"/>
+    <rootfile full-path="Excerpts/1_Violin_2/1_Violin_2.mss"/>
+    <rootfile full-path="Excerpts/1_Violin_2/1_Violin_2.mscx"/>
+    <rootfile full-path="Excerpts/2_Viola/2_Viola.mss"/>
+    <rootfile full-path="Excerpts/2_Viola/2_Viola.mscx"/>
+    <rootfile full-path="Excerpts/3_Violoncello/3_Violoncello.mss"/>
+    <rootfile full-path="Excerpts/3_Violoncello/3_Violoncello.mscx"/>
+    <rootfile full-path="Thumbnails/thumbnail.png"/>
+    <rootfile full-path="audiosettings.json"/>
+    <rootfile full-path="viewsettings.json"/>
+    <rootfile full-path="Excerpts/0_Violin_1/viewsettings.json"/>
+    <rootfile full-path="Excerpts/1_Violin_2/viewsettings.json"/>
+    <rootfile full-path="Excerpts/2_Viola/viewsettings.json"/>
+    <rootfile full-path="Excerpts/3_Violoncello/viewsettings.json"/>
+    </rootfiles>
+  </container>

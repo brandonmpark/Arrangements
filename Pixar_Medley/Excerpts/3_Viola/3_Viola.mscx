@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.20">
-  <programVersion>4.2.0</programVersion>
-  <programRevision>eb8d33c</programRevision>
-  <LastEID>15729</LastEID>
+  <programVersion>4.2.1</programVersion>
+  <programRevision>d757433</programRevision>
+  <LastEID>16089</LastEID>
   <Score>
     <name>Viola</name>
     <initialPartId>3</initialPartId>
@@ -182,10 +182,20 @@
             <linked>
               <indexDiff>2</indexDiff>
               </linked>
-            <minDistance>-3.74862</minDistance>
-            <offset x="0" y="-1.24551"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-6.73839</minDistance>
+            <offset x="1.25885" y="-1.69401"/>
             <text>pizz.</text>
             </PlayTechAnnotation>
+          <StaffText>
+            <eid>67581310402608</eid>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="0.157356" y="-3.67506"/>
+            <text>(Cello)</text>
+            </StaffText>
           <Rest>
             <eid>49735721287705</eid>
             <linked>
@@ -349,6 +359,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>69054484185168</eid>
+          <subtype>nobreak</subtype>
+          </LayoutBreak>
         <voice>
           <PlayTechAnnotation>
             <eid>49838800502834</eid>
@@ -498,6 +512,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>69058779152464</eid>
+          <subtype>nobreak</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>49920404881433</eid>
@@ -1319,6 +1337,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>69063074119760</eid>
+          <subtype>nobreak</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>50324131807347</eid>
@@ -1940,6 +1962,12 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68624987455500</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -2051,7 +2079,6 @@
             </Clef>
           <BarLine>
             <subtype>double</subtype>
-            <span>1</span>
             <eid>50689204027404</eid>
             <linked>
               </linked>
@@ -2059,6 +2086,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>69067369087056</eid>
+          <subtype>nobreak</subtype>
+          </LayoutBreak>
         <voice>
           <SystemText>
             <eid>50693498994737</eid>
@@ -2068,7 +2099,9 @@
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
             <bold>1</bold>
+            <offset x="-2.04563" y="-3.87071"/>
             <text><b><i>Monsters, Inc.</i> - &quot;Monsters, Inc.&quot;</b></text>
             </SystemText>
           <Spanner type="HairPin">
@@ -2701,6 +2734,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>69071664054352</eid>
+          <subtype>nobreak</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>51101520887833</eid>
@@ -3191,6 +3228,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>69075959021648</eid>
+          <subtype>nobreak</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>51376398794777</eid>
@@ -3817,6 +3858,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>69080253988944</eid>
+          <subtype>nobreak</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>mf</subtype>
@@ -5201,6 +5246,8 @@
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-2.04563" y="-2.47207"/>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 184 Straight</text>
             </Tempo>
           <SystemText>
@@ -5286,6 +5333,13 @@
               <indexDiff>1</indexDiff>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>67632850010160</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>(Violin 2)</text>
+            </StaffText>
           <Chord>
             <eid>52596169506931</eid>
             <linked>
@@ -5459,6 +5513,12 @@
             <linked>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>67658619813936</eid>
+            <linked>
+              </linked>
+            <text>(Cello)</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -6087,6 +6147,12 @@
             <linked>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>67688684585008</eid>
+            <linked>
+              </linked>
+            <text>(Violin 2)</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -8641,6 +8707,10 @@
         </Measure>
       <Measure len="12/4">
         <multiMeasureRest>3</multiMeasureRest>
+        <LayoutBreak>
+          <eid>69084548956240</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>54400055771162</eid>
@@ -8661,6 +8731,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>69088843923536</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>54408645705753</eid>
@@ -8680,6 +8754,12 @@
             <linked>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>67714454388784</eid>
+            <linked>
+              </linked>
+            <text>(Violin 1)</text>
+            </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -8843,6 +8923,12 @@
             <linked>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>67723044323376</eid>
+            <linked>
+              </linked>
+            <text>Cue</text>
+            </StaffText>
           <Chord>
             <eid>54494545051763</eid>
             <linked>
@@ -9959,6 +10045,12 @@
             <linked>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>67748814127152</eid>
+            <linked>
+              </linked>
+            <text>(Violin 2)</text>
+            </StaffText>
           <Chord>
             <eid>55228984459379</eid>
             <linked>
@@ -11250,6 +11342,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>68251325300771</eid>
+            <linked>
+              </linked>
+            </Dynamic>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -11266,16 +11365,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <eid>55933359095834</eid>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -11285,6 +11374,12 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68659347193868</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -11304,7 +11399,7 @@
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 120</text>
             </Tempo>
@@ -11313,27 +11408,27 @@
             <velocity>64</velocity>
             <eid>55950538965027</eid>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             </Dynamic>
           <StaffText>
             <eid>55954833932336</eid>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <text>Cue</text>
             </StaffText>
           <Chord>
             <eid>55959128899699</eid>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>55963423866996</eid>
                 <linked>
-                  <indexDiff>1</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -11346,13 +11441,13 @@
               <subtype>stringsDownBow</subtype>
               <eid>55967718834207</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <eid>55972013801492</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -12010,6 +12105,12 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68590627717132</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -12027,6 +12128,14 @@
             <linked>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>67826123538480</eid>
+            <linked>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-2.5177" y="-1.47207"/>
+            <text>(Violin 1)</text>
+            </StaffText>
           <Rest>
             <eid>56311316217881</eid>
             <linked>
@@ -12053,6 +12162,9 @@
             <eid>56319906152498</eid>
             <linked>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-6.29607</minDistance>
+            <offset x="0.314712" y="-1.66426"/>
             <text>pizz.</text>
             </PlayTechAnnotation>
           <Dynamic>
@@ -12066,6 +12178,8 @@
             <eid>56328496087088</eid>
             <linked>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="0.157356" y="-3.67506"/>
             <text>Cue</text>
             </StaffText>
           <Chord>
@@ -13123,6 +13237,10 @@
         </Measure>
       <Measure len="9/4">
         <multiMeasureRest>3</multiMeasureRest>
+        <LayoutBreak>
+          <eid>69093138890832</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>56929791508506</eid>
@@ -13143,6 +13261,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>69097433858128</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>56938381443097</eid>
@@ -13182,6 +13304,12 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68796786147340</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -13200,7 +13328,7 @@
                 <location>
                   <staves>-2</staves>
                   </location>
-                <indexDiff>2</indexDiff>
+                <indexDiff>4</indexDiff>
                 </linked>
               </GradualTempoChange>
             <next>
@@ -13212,6 +13340,7 @@
           <Rest>
             <eid>56955561312281</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -13316,6 +13445,12 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68693706932236</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -13328,6 +13463,7 @@
               <location>
                 <staves>-2</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 94</text>
             </Tempo>
@@ -13341,17 +13477,20 @@
           <Chord>
             <eid>57019985821811</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>57024280789012</eid>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <eid>57028575756318</eid>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -13410,6 +13549,12 @@
             <durationType>measure</durationType>
             <duration>6/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68801081114636</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -13421,6 +13566,12 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68805376081932</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -13430,6 +13581,9 @@
             <eid>57054345560114</eid>
             <linked>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-3.43391</minDistance>
+            <offset x="-0.157356" y="-3.06656"/>
             <text>pizz.</text>
             </PlayTechAnnotation>
           <Dynamic>
@@ -13439,6 +13593,14 @@
             <linked>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>67989332295728</eid>
+            <linked>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-0.314712" y="-4.60783"/>
+            <text>(Violin 1)</text>
+            </StaffText>
           <Chord>
             <eid>57062935494771</eid>
             <linked>
@@ -13500,6 +13662,12 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>67993627263024</eid>
+            <linked>
+              </linked>
+            <text>(Violin 1)</text>
+            </StaffText>
           <Chord>
             <eid>57088705298547</eid>
             <linked>
@@ -13529,6 +13697,12 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>67997922230320</eid>
+            <linked>
+              </linked>
+            <text>(Violin 1)</text>
+            </StaffText>
           <Chord>
             <eid>57101590200435</eid>
             <linked>
@@ -13558,6 +13732,12 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>68002217197616</eid>
+            <linked>
+              </linked>
+            <text>(Violin 1)</text>
+            </StaffText>
           <Chord>
             <eid>57114475102323</eid>
             <linked>
@@ -13600,6 +13780,12 @@
             <linked>
               </linked>
             </Clef>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68886980460556</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -13629,10 +13815,22 @@
             <linked>
               </linked>
             </Clef>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68891275427852</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <eid>68895570395158</eid>
+            <linked>
+              </linked>
+            <concertKey>1</concertKey>
+            </KeySig>
           <TimeSig>
             <eid>57148834840600</eid>
             <linked>
@@ -13722,12 +13920,6 @@
         </Measure>
       <Measure>
         <voice>
-          <KeySig>
-            <eid>57200374448150</eid>
-            <linked>
-              </linked>
-            <concertKey>1</concertKey>
-            </KeySig>
           <TimeSig>
             <eid>57204669415448</eid>
             <linked>
@@ -13741,7 +13933,7 @@
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b><i>Inside Out</i> - &quot;A Growing Personality&quot;</b></text>
@@ -13751,7 +13943,7 @@
             <velocity>33</velocity>
             <eid>57213259350051</eid>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
@@ -13766,7 +13958,7 @@
               <subtype>0</subtype>
               <eid>57217554317406</eid>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               </HairPin>
             <next>
@@ -13778,13 +13970,13 @@
           <Chord>
             <eid>57221849284723</eid>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <eid>57226144251924</eid>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -14715,6 +14907,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>69101728825424</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <prev>
@@ -14794,10 +14990,22 @@
               </linked>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68964289871884</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <eid>68929930133526</eid>
+            <linked>
+              </linked>
+            <concertKey>2</concertKey>
+            </KeySig>
           <Tempo>
             <tempo>1.2</tempo>
             <followText>1</followText>
@@ -14806,6 +15014,7 @@
               <location>
                 <staves>-2</staves>
                 </location>
+              <indexDiff>2</indexDiff>
               </linked>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 72</text>
             </Tempo>
@@ -14821,6 +15030,7 @@
               <subtype>0</subtype>
               <eid>57827439673438</eid>
               <linked>
+                <indexDiff>2</indexDiff>
                 </linked>
               </HairPin>
             <next>
@@ -14832,17 +15042,20 @@
           <Chord>
             <eid>57831734640755</eid>
             <linked>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>whole</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
               <eid>57836029607967</eid>
               <linked>
+                <indexDiff>2</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <eid>57840324575252</eid>
               <linked>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>66</pitch>
               <tpc>20</tpc>
@@ -14852,12 +15065,6 @@
         </Measure>
       <Measure>
         <voice>
-          <KeySig>
-            <eid>57844619542550</eid>
-            <linked>
-              </linked>
-            <concertKey>2</concertKey>
-            </KeySig>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
@@ -14865,6 +15072,12 @@
             <linked>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>68006512164912</eid>
+            <linked>
+              </linked>
+            <text>(Violin 1)</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -14990,6 +15203,15 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <SystemText>
+            <eid>68410239090737</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text>unis.</text>
+            </SystemText>
           <Chord>
             <eid>57913339019379</eid>
             <linked>
@@ -15023,6 +15245,12 @@
             <linked>
               </linked>
             </Clef>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>68998649610252</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -15042,7 +15270,7 @@
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>2</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <visible>0</visible>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 72</text>
@@ -15053,7 +15281,7 @@
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>2</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b><i>Ratatouille</i> - &quot;Main Theme&quot;</b></text>
@@ -15063,7 +15291,7 @@
             <velocity>112</velocity>
             <eid>57947698757667</eid>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             </Dynamic>
           <Spanner type="GradualTempoChange">
@@ -15083,13 +15311,13 @@
           <Chord>
             <eid>57951993725043</eid>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <eid>57956288692244</eid>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>3</indexDiff>
                 </linked>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -15411,6 +15639,12 @@
             <linked>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>68032281968688</eid>
+            <linked>
+              </linked>
+            <text>Cue</text>
+            </StaffText>
           <Chord>
             <eid>58149562220659</eid>
             <linked>
@@ -16031,6 +16265,12 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>69045894250508</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -16250,6 +16490,16 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <SystemText>
+            <eid>68414534058033</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>unis.</text>
+            </SystemText>
           <Spanner type="GradualTempoChange">
             <prev>
               <location>
@@ -16260,11 +16510,13 @@
           <Chord>
             <eid>58518929408115</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <eid>58523224375316</eid>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -16341,6 +16593,12 @@
             <linked>
               </linked>
             </Dynamic>
+          <StaffText>
+            <eid>68204080660528</eid>
+            <linked>
+              </linked>
+            <text>(Violin 1)</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
